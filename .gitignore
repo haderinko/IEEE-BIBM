@@ -1,0 +1,14 @@
+﻿.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+.DS_Store
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz

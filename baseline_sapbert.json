@@ -1,0 +1,331 @@
+{
+  "model": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+  "n_rows": 50,
+  "accuracy": 0.5,
+  "kappa_unweighted": 0.3686868686868686,
+  "kappa_quadratic": 0.4967154058063149,
+  "meta": {
+    "tier_medians": {
+      "exact": 0.9999999403953552,
+      "close": 0.5126102566719055,
+      "narrow": 0.48346418142318726,
+      "broad": 0.5593289732933044,
+      "related": 0.27042683959007263
+    },
+    "thresholds": [
+      0.7796644568443298,
+      0.535969614982605,
+      0.4980372190475464,
+      0.37694551050662994
+    ],
+    "order": [
+      "exact",
+      "broad",
+      "close",
+      "narrow",
+      "related"
+    ]
+  },
+  "rows": [
+    {
+      "row_id": "R001",
+      "gold": "narrow",
+      "pred": "broad",
+      "cosine": 0.6210111379623413
+    },
+    {
+      "row_id": "R002",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.5981938242912292
+    },
+    {
+      "row_id": "R003",
+      "gold": "broad",
+      "pred": "exact",
+      "cosine": 0.8295677900314331
+    },
+    {
+      "row_id": "R004",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.4558994770050049
+    },
+    {
+      "row_id": "R005",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.5002457499504089
+    },
+    {
+      "row_id": "R006",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.27042683959007263
+    },
+    {
+      "row_id": "R007",
+      "gold": "narrow",
+      "pred": "broad",
+      "cosine": 0.6258829832077026
+    },
+    {
+      "row_id": "R008",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "R009",
+      "gold": "broad",
+      "pred": "related",
+      "cosine": 0.3666174113750458
+    },
+    {
+      "row_id": "R010",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "R011",
+      "gold": "broad",
+      "pred": "exact",
+      "cosine": 0.8076530694961548
+    },
+    {
+      "row_id": "R012",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.5593289732933044
+    },
+    {
+      "row_id": "R013",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.6238898038864136
+    },
+    {
+      "row_id": "R014",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.423572301864624
+    },
+    {
+      "row_id": "R015",
+      "gold": "narrow",
+      "pred": "exact",
+      "cosine": 0.9788649678230286
+    },
+    {
+      "row_id": "R016",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.4200649857521057
+    },
+    {
+      "row_id": "R017",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.6719452142715454
+    },
+    {
+      "row_id": "R018",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.6565868854522705
+    },
+    {
+      "row_id": "R019",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.4230501651763916
+    },
+    {
+      "row_id": "R020",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.8634907007217407
+    },
+    {
+      "row_id": "R021",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.5566775798797607
+    },
+    {
+      "row_id": "R022",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.6682804822921753
+    },
+    {
+      "row_id": "R023",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.25366494059562683
+    },
+    {
+      "row_id": "R024",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.19376814365386963
+    },
+    {
+      "row_id": "R025",
+      "gold": "exact",
+      "pred": "broad",
+      "cosine": 0.6468791961669922
+    },
+    {
+      "row_id": "R026",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.48383966088294983
+    },
+    {
+      "row_id": "R027",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.4577651619911194
+    },
+    {
+      "row_id": "R028",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "R029",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3238900899887085
+    },
+    {
+      "row_id": "R030",
+      "gold": "narrow",
+      "pred": "broad",
+      "cosine": 0.675560474395752
+    },
+    {
+      "row_id": "R031",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.4915916919708252
+    },
+    {
+      "row_id": "R032",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.42748787999153137
+    },
+    {
+      "row_id": "R033",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.18874654173851013
+    },
+    {
+      "row_id": "R034",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "R035",
+      "gold": "broad",
+      "pred": "exact",
+      "cosine": 0.7977105379104614
+    },
+    {
+      "row_id": "R036",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.23710989952087402
+    },
+    {
+      "row_id": "R037",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.02612600475549698
+    },
+    {
+      "row_id": "R038",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.49088990688323975
+    },
+    {
+      "row_id": "R039",
+      "gold": "related",
+      "pred": "broad",
+      "cosine": 0.5383786559104919
+    },
+    {
+      "row_id": "R040",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.4190930724143982
+    },
+    {
+      "row_id": "R041",
+      "gold": "close",
+      "pred": "close",
+      "cosine": 0.5126102566719055
+    },
+    {
+      "row_id": "R042",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.6861278414726257
+    },
+    {
+      "row_id": "R043",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.30887800455093384
+    },
+    {
+      "row_id": "R044",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2675124406814575
+    },
+    {
+      "row_id": "R045",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.519599199295044
+    },
+    {
+      "row_id": "R046",
+      "gold": "close",
+      "pred": "related",
+      "cosine": 0.2872168719768524
+    },
+    {
+      "row_id": "R047",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.550338864326477
+    },
+    {
+      "row_id": "R048",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.43280887603759766
+    },
+    {
+      "row_id": "R049",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "R050",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.47603845596313477
+    }
+  ]
+}

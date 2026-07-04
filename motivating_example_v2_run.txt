@@ -1,0 +1,43 @@
+
+════════════════════════════════════════════════════════════════════════
+  AI-READI SSSOM BENCHMARK — single-row demonstration  (v2)
+  Mode: DEMO    Temperature: 0.0
+════════════════════════════════════════════════════════════════════════
+
+  ROW UNDER TEST
+    Source term:   'HbA1c'
+    Target OMOP:   'Hemoglobin A1c/Hemoglobin.total in Blood'
+    Concept id:    3004410
+    Gold label:    exact   (hidden from judges; single curator)
+
+  JUDGE RESPONSES
+    Judge       Model                                             Label       vs gold
+    ----------  ------------------------------------------------  ----------  ------
+    Claude      claude-opus-4-7                                   exact       yes
+    GPT         gpt-5.4                                           exact       yes
+    DeepSeek    deepseek-chat-2024-12                             close       no
+    Llama       meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8  exact       yes
+
+  AGGREGATION
+    Vote counts:        exact=3, close=1
+    UNKNOWN responses:  0
+    Jury label:         exact
+    Jury vs gold:       MATCH ✓
+
+  TAKEAWAY
+    3 of 4 individual judges matched the (single) curator label.
+    The jury (majority vote) agrees with the curator.
+
+  CAVEATS
+    - Single curator: HbA1c row has at least one defensible alternative
+      ('close', since the OMOP target adds the /Hemoglobin.total ratio
+      specification not in the source). Second-curator regrade pending.
+    - This script captures per-row data only. Downstream analysis
+      computes: weighted κ (judge↔expert) with directional cost matrix,
+      Fleiss κ and Krippendorff's α (inter-judge), McNemar (jury vs.
+      best single judge), and bootstrap CIs on all headline numbers.
+
+════════════════════════════════════════════════════════════════════════
+
+  Full JSON saved to: /home/claude/motivating_example_output.json
+

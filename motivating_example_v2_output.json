@@ -1,0 +1,68 @@
+{
+  "row": {
+    "source_term": "HbA1c",
+    "target_label": "Hemoglobin A1c/Hemoglobin.total in Blood",
+    "target_omop_id": 3004410,
+    "gold_sssom_label": "exact"
+  },
+  "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"HbA1c\"\nTarget OMOP:  \"Hemoglobin A1c/Hemoglobin.total in Blood\" (concept_id: 3004410)\n\nRespond with ONE word only from the set above. No explanation.",
+  "mode": "demo",
+  "model_versions": {
+    "Claude": "claude-opus-4-7",
+    "GPT": "gpt-5.4",
+    "DeepSeek": "deepseek-chat-2024-12",
+    "Llama": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+  },
+  "gen_params": {
+    "temperature": 0.0,
+    "max_tokens": 10,
+    "top_p": 1.0
+  },
+  "judges": [
+    {
+      "judge_name": "Claude",
+      "model": "claude-opus-4-7",
+      "label": "exact",
+      "raw_response": "exact"
+    },
+    {
+      "judge_name": "GPT",
+      "model": "gpt-5.4",
+      "label": "exact",
+      "raw_response": "exact"
+    },
+    {
+      "judge_name": "DeepSeek",
+      "model": "deepseek-chat-2024-12",
+      "label": "close",
+      "raw_response": "close"
+    },
+    {
+      "judge_name": "Llama",
+      "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "label": "exact",
+      "raw_response": "exact"
+    }
+  ],
+  "vote_counts": {
+    "exact": 3,
+    "close": 1
+  },
+  "jury_label": "exact",
+  "jury_abstained": false,
+  "unknown_count": 0,
+  "routed_to_human": false,
+  "gold_label": "exact",
+  "per_judge_correct": {
+    "Claude": true,
+    "GPT": true,
+    "DeepSeek": false,
+    "Llama": true
+  },
+  "jury_correct": true,
+  "caveats": {
+    "single_curator": true,
+    "weighted_kappa_required": true,
+    "directional_narrow_broad": true
+  }
+}

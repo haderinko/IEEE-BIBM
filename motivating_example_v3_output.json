@@ -1,0 +1,433 @@
+{
+  "mode": "demo",
+  "model_versions": {
+    "Claude": "claude-opus-4-7",
+    "GPT": "gpt-5.4",
+    "DeepSeek": "deepseek-chat-2024-12",
+    "Llama": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+  },
+  "gen_params": {
+    "temperature": 0.0,
+    "max_tokens": 10,
+    "top_p": 1.0
+  },
+  "rows": [
+    {
+      "row": {
+        "row_id": "AIR-001",
+        "source_term": "HbA1c",
+        "target_label": "Hemoglobin A1c/Hemoglobin.total in Blood",
+        "target_omop_id": 3004410,
+        "gold_sssom_label": "exact"
+      },
+      "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"HbA1c\"\nTarget OMOP:  \"Hemoglobin A1c/Hemoglobin.total in Blood\" (concept_id: 3004410)\n\nRespond with ONE word only from the set above. No explanation.",
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "claude-opus-4-7",
+          "label": "exact",
+          "raw_response": "exact",
+          "logprob": null,
+          "confidence": null
+        },
+        {
+          "judge_name": "GPT",
+          "model": "gpt-5.4",
+          "label": "exact",
+          "raw_response": "exact",
+          "logprob": -0.05,
+          "confidence": 0.951229424500714
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek-chat-2024-12",
+          "label": "close",
+          "raw_response": "close",
+          "logprob": -0.41,
+          "confidence": 0.6636502501363194
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "label": "exact",
+          "raw_response": "exact",
+          "logprob": -0.1,
+          "confidence": 0.9048374180359595
+        }
+      ],
+      "vote_counts": {
+        "exact": 3,
+        "close": 1
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "unknown_count": 0,
+      "routed_to_human": false,
+      "gold_label": "exact",
+      "per_judge_correct": {
+        "Claude": true,
+        "GPT": true,
+        "DeepSeek": false,
+        "Llama": true
+      },
+      "jury_correct": true
+    },
+    {
+      "row": {
+        "row_id": "AIR-002",
+        "source_term": "BP",
+        "target_label": "Blood pressure systolic and diastolic",
+        "target_omop_id": 4154790,
+        "gold_sssom_label": "broad"
+      },
+      "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"BP\"\nTarget OMOP:  \"Blood pressure systolic and diastolic\" (concept_id: 4154790)\n\nRespond with ONE word only from the set above. No explanation.",
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "claude-opus-4-7",
+          "label": "broad",
+          "raw_response": "broad",
+          "logprob": null,
+          "confidence": null
+        },
+        {
+          "judge_name": "GPT",
+          "model": "gpt-5.4",
+          "label": "broad",
+          "raw_response": "broad",
+          "logprob": -0.22,
+          "confidence": 0.8025187979624785
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek-chat-2024-12",
+          "label": "broad",
+          "raw_response": "broad",
+          "logprob": -0.36,
+          "confidence": 0.697676326071031
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "label": "exact",
+          "raw_response": "exact",
+          "logprob": -0.51,
+          "confidence": 0.6004955788122659
+        }
+      ],
+      "vote_counts": {
+        "broad": 3,
+        "exact": 1
+      },
+      "jury_label": "broad",
+      "jury_abstained": false,
+      "unknown_count": 0,
+      "routed_to_human": false,
+      "gold_label": "broad",
+      "per_judge_correct": {
+        "Claude": true,
+        "GPT": true,
+        "DeepSeek": true,
+        "Llama": false
+      },
+      "jury_correct": true
+    },
+    {
+      "row": {
+        "row_id": "AIR-003",
+        "source_term": "Fasting glucose 8h",
+        "target_label": "Glucose [Mass/volume] in Serum or Plasma --8 hours fasting",
+        "target_omop_id": 3037110,
+        "gold_sssom_label": "close"
+      },
+      "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"Fasting glucose 8h\"\nTarget OMOP:  \"Glucose [Mass/volume] in Serum or Plasma --8 hours fasting\" (concept_id: 3037110)\n\nRespond with ONE word only from the set above. No explanation.",
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "claude-opus-4-7",
+          "label": "close",
+          "raw_response": "close",
+          "logprob": null,
+          "confidence": null
+        },
+        {
+          "judge_name": "GPT",
+          "model": "gpt-5.4",
+          "label": "close",
+          "raw_response": "close",
+          "logprob": -0.18,
+          "confidence": 0.835270211411272
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek-chat-2024-12",
+          "label": "close",
+          "raw_response": "close",
+          "logprob": -0.29,
+          "confidence": 0.7482635675785653
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "label": "close",
+          "raw_response": "close",
+          "logprob": -0.33,
+          "confidence": 0.7189237334319262
+        }
+      ],
+      "vote_counts": {
+        "close": 4
+      },
+      "jury_label": "close",
+      "jury_abstained": false,
+      "unknown_count": 0,
+      "routed_to_human": false,
+      "gold_label": "close",
+      "per_judge_correct": {
+        "Claude": true,
+        "GPT": true,
+        "DeepSeek": true,
+        "Llama": true
+      },
+      "jury_correct": true
+    },
+    {
+      "row": {
+        "row_id": "AIR-004",
+        "source_term": "Eye exam",
+        "target_label": "Retinal photography",
+        "target_omop_id": 4079775,
+        "gold_sssom_label": "narrow"
+      },
+      "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"Eye exam\"\nTarget OMOP:  \"Retinal photography\" (concept_id: 4079775)\n\nRespond with ONE word only from the set above. No explanation.",
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "claude-opus-4-7",
+          "label": "narrow",
+          "raw_response": "narrow",
+          "logprob": null,
+          "confidence": null
+        },
+        {
+          "judge_name": "GPT",
+          "model": "gpt-5.4",
+          "label": "narrow",
+          "raw_response": "narrow",
+          "logprob": -0.13,
+          "confidence": 0.8780954309205613
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek-chat-2024-12",
+          "label": "related",
+          "raw_response": "related",
+          "logprob": -0.61,
+          "confidence": 0.5433508690744998
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "label": "narrow",
+          "raw_response": "narrow",
+          "logprob": -0.27,
+          "confidence": 0.7633794943368531
+        }
+      ],
+      "vote_counts": {
+        "narrow": 3,
+        "related": 1
+      },
+      "jury_label": "narrow",
+      "jury_abstained": false,
+      "unknown_count": 0,
+      "routed_to_human": false,
+      "gold_label": "narrow",
+      "per_judge_correct": {
+        "Claude": true,
+        "GPT": true,
+        "DeepSeek": false,
+        "Llama": true
+      },
+      "jury_correct": true
+    },
+    {
+      "row": {
+        "row_id": "AIR-005",
+        "source_term": "Smoking",
+        "target_label": "History of tobacco use",
+        "target_omop_id": 4055674,
+        "gold_sssom_label": "related"
+      },
+      "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"Smoking\"\nTarget OMOP:  \"History of tobacco use\" (concept_id: 4055674)\n\nRespond with ONE word only from the set above. No explanation.",
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "claude-opus-4-7",
+          "label": "related",
+          "raw_response": "related",
+          "logprob": null,
+          "confidence": null
+        },
+        {
+          "judge_name": "GPT",
+          "model": "gpt-5.4",
+          "label": "related",
+          "raw_response": "related",
+          "logprob": -0.24,
+          "confidence": 0.7866278610665535
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek-chat-2024-12",
+          "label": "related",
+          "raw_response": "related",
+          "logprob": -0.31,
+          "confidence": 0.7334469562242892
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "label": "close",
+          "raw_response": "close",
+          "logprob": -0.78,
+          "confidence": 0.4584060113052235
+        }
+      ],
+      "vote_counts": {
+        "related": 3,
+        "close": 1
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "unknown_count": 0,
+      "routed_to_human": false,
+      "gold_label": "related",
+      "per_judge_correct": {
+        "Claude": true,
+        "GPT": true,
+        "DeepSeek": true,
+        "Llama": false
+      },
+      "jury_correct": true
+    }
+  ],
+  "run_summary": {
+    "n_rows": 5,
+    "n_committed": 5,
+    "n_abstained": 0,
+    "n_jury_correct": 5,
+    "coverage": 1.0,
+    "conditional_accuracy": 1.0,
+    "label_distributions": {
+      "per_judge": {
+        "Claude": {
+          "counts": {
+            "exact": 1,
+            "broad": 1,
+            "close": 1,
+            "narrow": 1,
+            "related": 1
+          },
+          "distribution": {
+            "exact": 0.2,
+            "broad": 0.2,
+            "close": 0.2,
+            "narrow": 0.2,
+            "related": 0.2
+          },
+          "n_distinct": 5,
+          "total_rows": 5
+        },
+        "GPT": {
+          "counts": {
+            "exact": 1,
+            "broad": 1,
+            "close": 1,
+            "narrow": 1,
+            "related": 1
+          },
+          "distribution": {
+            "exact": 0.2,
+            "broad": 0.2,
+            "close": 0.2,
+            "narrow": 0.2,
+            "related": 0.2
+          },
+          "n_distinct": 5,
+          "total_rows": 5
+        },
+        "DeepSeek": {
+          "counts": {
+            "close": 2,
+            "broad": 1,
+            "related": 2
+          },
+          "distribution": {
+            "close": 0.4,
+            "broad": 0.2,
+            "related": 0.4
+          },
+          "n_distinct": 3,
+          "total_rows": 5
+        },
+        "Llama": {
+          "counts": {
+            "exact": 2,
+            "close": 2,
+            "narrow": 1
+          },
+          "distribution": {
+            "exact": 0.4,
+            "close": 0.4,
+            "narrow": 0.2
+          },
+          "n_distinct": 3,
+          "total_rows": 5
+        }
+      },
+      "judges_flagged": [],
+      "rule": "flag if a judge uses fewer than 3 of 5 SSSOM labels"
+    },
+    "confidence_summary": {
+      "Claude": {
+        "n_with_confidence": 0,
+        "n_without_confidence": 5,
+        "note": "provider did not return log-probabilities"
+      },
+      "GPT": {
+        "n_with_confidence": 5,
+        "n_without_confidence": 0,
+        "mean_confidence": 0.8507483451723159,
+        "min_confidence": 0.7866278610665535,
+        "max_confidence": 0.951229424500714,
+        "mean_when_correct": 0.8507483451723159,
+        "mean_when_wrong": null
+      },
+      "DeepSeek": {
+        "n_with_confidence": 5,
+        "n_without_confidence": 0,
+        "mean_confidence": 0.677277593816941,
+        "min_confidence": 0.5433508690744998,
+        "max_confidence": 0.7482635675785653,
+        "mean_when_correct": 0.7264622832912951,
+        "mean_when_wrong": 0.6035005596054096
+      },
+      "Llama": {
+        "n_with_confidence": 5,
+        "n_without_confidence": 0,
+        "mean_confidence": 0.6892084471844456,
+        "min_confidence": 0.4584060113052235,
+        "max_confidence": 0.9048374180359595,
+        "mean_when_correct": 0.7957135486015797,
+        "mean_when_wrong": 0.5294507950587447
+      }
+    }
+  },
+  "caveats": {
+    "single_curator": true,
+    "weighted_kappa_required": true,
+    "directional_narrow_broad": true,
+    "demo_data": true
+  }
+}

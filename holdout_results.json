@@ -1,0 +1,4306 @@
+{
+  "config": {
+    "csv": "C:\\Users\\hader\\PycharmProjects\\AI_READI\\holdout_sample.csv",
+    "per_tier": 40,
+    "seed": 20260704,
+    "prompt_version": "v4-verbalized-confidence",
+    "judges": [
+      {
+        "name": "Claude",
+        "model": "anthropic/claude-opus-4.7"
+      },
+      {
+        "name": "GPT",
+        "model": "openai/gpt-5.5"
+      },
+      {
+        "name": "DeepSeek",
+        "model": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "name": "Llama",
+        "model": "meta-llama/llama-4-maverick"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "row_id": "AIRV3-pxne8_88-2005200269",
+      "source_term": "There are no streets or roads in my neighborhood",
+      "target_label": "There are no streets or roads in my neighborhood",
+      "target_omop_id": 2005200269,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--2005200519",
+      "source_term": "On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",
+      "target_label": "How often have you been accused or suspected of doing something wrong (such as stealing, cheating, not doing your share of the work, or breaking the law) because of your race/ethnic group? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",
+      "target_omop_id": 2005200519,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100\n\nReasoning: The source term and the target concept contain the identical question \"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful\". Although the target concept includes additional context about being accused or suspected of doing something wrong because of one's race/ethnic group, the specific question about stressfulness is exactly the same in both. Therefore, the mapping is considered 'exact' because it is the same concept being measured, with the surrounding context in the target not altering the core concept being asked about. The confidence is 100 because the identical phrasing of the question directly indicates an exact match.",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "narrow": 3,
+        "exact": 1
+      },
+      "jury_label": "narrow",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--2005200122",
+      "source_term": "There are many places to go within easy walking distance of my home. Would you say that you...",
+      "target_label": "There are many places to go within easy walking distance of my home. Would you say that you...",
+      "target_omop_id": 2005200122,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd29_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "close": 1,
+        "narrow": 1,
+        "broad": 1
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd54_1-36210226",
+      "source_term": "1 - Not at all stressful",
+      "target_label": "Not at all bothersome",
+      "target_omop_id": 36210226,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxep2_1-37079013",
+      "source_term": "Yes",
+      "target_label": "Language other than English",
+      "target_omop_id": 37079013,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd35_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 92",
+          "logprob": null,
+          "confidence": 92.0,
+          "verbalized_confidence": 92.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "narrow": 2,
+        "broad": 1
+      },
+      "jury_label": "narrow",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd50_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "narrow": 1,
+        "broad": 1
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-cm_slp_2-45884557",
+      "source_term": "A few days (<1 day/week)",
+      "target_label": "Less than a day",
+      "target_omop_id": 45884557,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 2,
+        "exact": 1,
+        "narrow": 1
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-mhcat_adot_999-45882025",
+      "source_term": "Unsure from the options listed",
+      "target_label": "Unsure",
+      "target_omop_id": 45882025,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "broad": 2,
+        "exact": 2
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-mhoccur_yn_1-2005200014",
+      "source_term": "Yes",
+      "target_label": "Has a doctor or other healthcare professional ever told you that you have/had...",
+      "target_omop_id": 2005200014,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd41_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 92",
+          "logprob": null,
+          "confidence": 92.0,
+          "verbalized_confidence": 92.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "narrow": 2,
+        "broad": 1
+      },
+      "jury_label": "narrow",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd43_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "close": 1,
+        "narrow": 1,
+        "broad": 1
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd40_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 92",
+          "logprob": null,
+          "confidence": 92.0,
+          "verbalized_confidence": 92.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "narrow": 2,
+        "broad": 1
+      },
+      "jury_label": "narrow",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd22_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-suvptoyr_98-45882614",
+      "source_term": "More than 60 years old",
+      "target_label": "60 or older",
+      "target_omop_id": 45882614,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "broad": 3,
+        "exact": 1
+      },
+      "jury_label": "broad",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxhic8_1-2005200254",
+      "source_term": "I HAVE some kind of health insurance",
+      "target_label": "I HAVE some kind of health insurance",
+      "target_omop_id": 2005200254,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-subrdosfr_36-2005200198",
+      "source_term": "36 or more",
+      "target_label": "36 or more",
+      "target_omop_id": 2005200198,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 99",
+          "logprob": null,
+          "confidence": 99.0,
+          "verbalized_confidence": 99.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-cmtrt_insln_1-440922",
+      "source_term": "Yes",
+      "target_label": "Diabetic on insulin",
+      "target_omop_id": 440922,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd34_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-mhoccur_ded_0-2005200014",
+      "source_term": "No",
+      "target_label": "Has a doctor or other healthcare professional ever told you that you have/had...",
+      "target_omop_id": 2005200014,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd21_6-36210124",
+      "source_term": "6 - Extremely stressful",
+      "target_label": "Extremely bothersome",
+      "target_omop_id": 36210124,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd26_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd13_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--4160030",
+      "source_term": "FAQ Survey date (date survey/form opened)",
+      "target_label": "Performed",
+      "target_omop_id": 4160030,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 40",
+          "logprob": null,
+          "confidence": 40.0,
+          "verbalized_confidence": 40.0
+        }
+      ],
+      "vote_counts": {
+        "related": 3
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-pxrd35_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd10_5-45879199",
+      "source_term": "Most of the time",
+      "target_label": "Most of the time",
+      "target_omop_id": 45879199,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd16_1-45876662",
+      "source_term": "Never",
+      "target_label": "Never",
+      "target_omop_id": 45876662,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd53_1-45879534",
+      "source_term": "The Same as it is now",
+      "target_label": "About the same",
+      "target_omop_id": 45879534,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 88",
+          "logprob": null,
+          "confidence": 88.0,
+          "verbalized_confidence": 88.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "close": 2,
+        "exact": 1
+      },
+      "jury_label": "close",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-pxed1_6-45883377",
+      "source_term": "6TH Grade",
+      "target_label": "6th grade",
+      "target_omop_id": 45883377,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--3007461",
+      "source_term": "Platelets - x10E3/\u00b5L",
+      "target_label": "Platelets [#/volume] in Blood",
+      "target_omop_id": 3007461,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        }
+      ],
+      "vote_counts": {
+        "close": 2,
+        "exact": 2
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-sulqdosfr_777-36311156",
+      "source_term": "Prefer not to say",
+      "target_label": "Prefer not to say",
+      "target_omop_id": 36311156,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd39_6-36210124",
+      "source_term": "6 - Extremely stressful",
+      "target_label": "Extremely bothersome",
+      "target_omop_id": 36210124,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 93",
+          "logprob": null,
+          "confidence": 93.0,
+          "verbalized_confidence": 93.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-mhoccur_ua_777-2005200014",
+      "source_term": "Prefer not to say",
+      "target_label": "Has a doctor or other healthcare professional ever told you that you have/had...",
+      "target_omop_id": 2005200014,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-eos_dsvst_0-3018196",
+      "source_term": "Signed Consent",
+      "target_label": "Informed consent obtained",
+      "target_omop_id": 3018196,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "broad": 2,
+        "exact": 1
+      },
+      "jury_label": "broad",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--2005200162",
+      "source_term": "Left Foot - Tested:",
+      "target_label": "Left Foot - Tested:",
+      "target_omop_id": 2005200162,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd31_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "close": 1,
+        "broad": 1
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-pxrd4_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--45883143",
+      "source_term": "Left hand",
+      "target_label": "Left",
+      "target_omop_id": 45883143,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "broad": 4
+      },
+      "jury_label": "broad",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--4160030",
+      "source_term": "Date monofilament performed",
+      "target_label": "Performed",
+      "target_omop_id": 4160030,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "broad": 2,
+        "related": 1
+      },
+      "jury_label": "broad",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3--3003338",
+      "source_term": "MCHC - g/dL",
+      "target_label": "MCHC [Mass/volume]",
+      "target_omop_id": 3003338,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 92",
+          "logprob": null,
+          "confidence": 92.0,
+          "verbalized_confidence": 92.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 3,
+        "close": 1
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-dri2_99-45876636",
+      "source_term": "Don't know",
+      "target_label": "Don't know",
+      "target_omop_id": 45876636,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxahc5_5-45878142",
+      "source_term": "Some other place",
+      "target_label": "Other",
+      "target_omop_id": 45878142,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "broad": 1,
+        "close": 1,
+        "related": 1
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-pxrd31_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--2005200303",
+      "source_term": "Cirrus-Disc 6x6-OCTA",
+      "target_label": "Cirrus-Disc 6x6-OCTA",
+      "target_omop_id": 2005200303,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxahc3_555-45876636",
+      "source_term": "Don't know",
+      "target_label": "Don't know",
+      "target_omop_id": 45876636,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxdhc4_1-45876662",
+      "source_term": "Never",
+      "target_label": "Never",
+      "target_omop_id": 45876662,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd3_1-36210226",
+      "source_term": "1 - Not at all stressful",
+      "target_label": "Not at all bothersome",
+      "target_omop_id": 36210226,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 92",
+          "logprob": null,
+          "confidence": 92.0,
+          "verbalized_confidence": 92.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd52_5-45877440",
+      "source_term": "Different in most ways",
+      "target_label": "Major change",
+      "target_omop_id": 45877440,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "related": 3,
+        "close": 1
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--4160030",
+      "source_term": "Pre-consent survey/form date (date survey/form opened)",
+      "target_label": "Performed",
+      "target_omop_id": 4160030,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 3
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-paid_scrd_0-2005200213",
+      "source_term": "Not a problem",
+      "target_label": "Not a problem",
+      "target_omop_id": 2005200213,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact  \nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-ces2_3-2005200144",
+      "source_term": "All of the time (5-7 days)",
+      "target_label": "All of the time (5-7 days)",
+      "target_omop_id": 2005200144,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-fh_dm2sb_1-4334340",
+      "source_term": "Yes",
+      "target_label": "Family history of diabetes mellitus type 2",
+      "target_omop_id": 4334340,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxhic1_999-45884425",
+      "source_term": "Not Sure",
+      "target_label": "Not sure",
+      "target_omop_id": 45884425,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-cm_ibp_3-1620467",
+      "source_term": "Some days (1-2 days/week)",
+      "target_label": "A few days (1-2 days)",
+      "target_omop_id": 1620467,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 86",
+          "logprob": null,
+          "confidence": 86.0,
+          "verbalized_confidence": 86.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "close": 2,
+        "exact": 1
+      },
+      "jury_label": "close",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-pxrd23_1-45876662",
+      "source_term": "Never",
+      "target_label": "Never",
+      "target_omop_id": 45876662,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxfi5_555-45876636",
+      "source_term": "Don't know",
+      "target_label": "Don't know",
+      "target_omop_id": 45876636,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-subrdosfr_29-2005200197",
+      "source_term": "29 to 35",
+      "target_label": "29 to 35",
+      "target_omop_id": 2005200197,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-cm_dcg_4-1620862",
+      "source_term": "Most days (3-4 days/week)",
+      "target_label": "Most days (3-4 days)",
+      "target_omop_id": 1620862,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 2,
+        "broad": 2
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-mhoccur_yn_0-2005200014",
+      "source_term": "No",
+      "target_label": "Has a doctor or other healthcare professional ever told you that you have/had...",
+      "target_omop_id": 2005200014,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 99",
+          "logprob": null,
+          "confidence": 99.0,
+          "verbalized_confidence": 99.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 20",
+          "logprob": null,
+          "confidence": 20.0,
+          "verbalized_confidence": 20.0
+        }
+      ],
+      "vote_counts": {
+        "related": 4
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd52_3-45880786",
+      "source_term": "Different in a few ways",
+      "target_label": "Slight change",
+      "target_omop_id": 45880786,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 70",
+          "logprob": null,
+          "confidence": 70.0,
+          "verbalized_confidence": 70.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "related": 2,
+        "close": 1
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-pxji1_2-1989775",
+      "source_term": "Fairly likely",
+      "target_label": "Somewhat likely",
+      "target_omop_id": 1989775,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "close": 2,
+        "exact": 1
+      },
+      "jury_label": "close",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-fh_dm2sbsp_4-45877612",
+      "source_term": "Half-Brother",
+      "target_label": "Half-brother",
+      "target_omop_id": 45877612,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-paid_scrd_3-2005200216",
+      "source_term": "Somewhat serious problem",
+      "target_label": "Somewhat serious problem",
+      "target_omop_id": 2005200216,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxne2_2-45879539",
+      "source_term": "Somewhat disagree",
+      "target_label": "Somewhat disagree",
+      "target_omop_id": 45879539,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-sumrjtrt_2-45878097",
+      "source_term": "Oral/Edibles (for example: oils, tinctures, beverages, capsules, sprays)",
+      "target_label": "Oral",
+      "target_omop_id": 45878097,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 88",
+          "logprob": null,
+          "confidence": 88.0,
+          "verbalized_confidence": 88.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "broad": 3
+      },
+      "jury_label": "broad",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-dmlact_10-2005200314",
+      "source_term": "Active (stairs, walks, housework)",
+      "target_label": "Active (stairs, walks, housework)",
+      "target_omop_id": 2005200314,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-rtso_odm_1-45877994",
+      "source_term": "Yes",
+      "target_label": "Yes",
+      "target_omop_id": 45877994,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd32_5-45879199",
+      "source_term": "Most of the time",
+      "target_label": "Most of the time",
+      "target_omop_id": 45879199,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd14_2-45879593",
+      "source_term": "Once in a while",
+      "target_label": "Occasionally",
+      "target_omop_id": 45879593,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxahc5_3-45884373",
+      "source_term": "Emergency room",
+      "target_label": "Emergency room",
+      "target_omop_id": 45884373,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxdhc7_2-45876672",
+      "source_term": "Rarely",
+      "target_label": "Rarely",
+      "target_omop_id": 45876672,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--40769208",
+      "source_term": "On average how many cigarettes do/did you usually smoke in a day? (Number of cigarettes | 20 cigarettes = 1 pack)",
+      "target_label": "How many of these do you smoke per day [#] [PhenX]",
+      "target_omop_id": 40769208,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        }
+      ],
+      "vote_counts": {
+        "close": 2,
+        "exact": 1
+      },
+      "jury_label": "close",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 1
+    },
+    {
+      "row_id": "AIRV3-dmlpor_777-36311156",
+      "source_term": "Prefer not to say",
+      "target_label": "Prefer not to say",
+      "target_omop_id": 36311156,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--3003500",
+      "source_term": "OS - Autorefractor - Sphere",
+      "target_label": "Left eye Sphere Autorefractor.auto",
+      "target_omop_id": 3003500,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 96",
+          "logprob": null,
+          "confidence": 96.0,
+          "verbalized_confidence": 96.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "To determine the appropriate label for the given concept mapping, let's analyze the source term and the target concept.\n\nThe source term is \"OS - Autorefractor - Sphere\". Here, \"OS\" is a medical abbreviation for \"Oculus Sinister,\" meaning the left eye. \"Autorefractor\" refers to a device used to measure the refractive error of an eye, and \"Sphere\" is a component of the measurement indicating the spherical correction needed for the eye.\n\nThe target concept is \"Left eye Sphere Autorefractor.auto\" with an OMOP concept_id: 3003500. This concept explicitly mentions \"Left eye,\" aligning with \"OS,\" and includes \"Sphere\" and \"Autorefractor,\" matching the components of the source term. The \".auto\" suffix suggests it's an automated measurement, which is consistent with the term \"Autorefractor.\"\n\n1. **Exactness of the Concepts**: Both the source term and the target concept refer to the spherical measurement obtained from an autorefractor for the left eye. The key elements (left eye, sphere, autorefractor) are present in both.\n\n2. **Specificity Comparison**:\n   - The source term is \"OS - Autorefractor - Sphere.\"\n   - The target concept is \"Left eye Sphere Autorefractor.auto.\"\n   \nBoth convey the same information: the spherical measurement for the left eye obtained using an autorefractor. The target concept explicitly states \"Left eye\" instead of using the abbreviation \"OS,\" and it includes \".auto,\" which is implicit in \"Autorefractor\" as it is an automated device. The core information is equivalent.\n\n3. **SSSOM Five-Tier Scale**:\n   - **Exact**: The concepts are essentially conveying the same information with the target concept being a more explicit version of the source term.\n   - Given the equivalence in meaning and the minor difference in representation (explicit \"Left eye\" vs. \"OS\" and the addition of \".auto\"), it leans towards being **exact** because the differences are not altering the core concept.\n\n4. **Confidence Level**: The confidence level is high because the essential components (left eye, autorefractor, sphere measurement) are matched, and the differences are minor and do not change the concept's meaning.\n\nLABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--4295005",
+      "source_term": "In a typical day, how many servings of fruits and vegetables do you consume?",
+      "target_label": "Number of portions of fruit and vegetables daily",
+      "target_omop_id": 4295005,
+      "gold_label": "close",
+      "gold_confidence": 75.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 92",
+          "logprob": null,
+          "confidence": 92.0,
+          "verbalized_confidence": 92.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3--40771497",
+      "source_term": "Date & Time Draw Performed",
+      "target_label": "Collection date and time of Specimen",
+      "target_omop_id": 40771497,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 85",
+          "logprob": null,
+          "confidence": 85.0,
+          "verbalized_confidence": 85.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "close",
+          "raw_response": "LABEL: close\nCONFIDENCE: 88",
+          "logprob": null,
+          "confidence": 88.0,
+          "verbalized_confidence": 88.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        }
+      ],
+      "vote_counts": {
+        "close": 2,
+        "exact": 2
+      },
+      "jury_label": "ABSTAIN",
+      "jury_abstained": true,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd17_6-45883838",
+      "source_term": "Almost all the time",
+      "target_label": "All the time",
+      "target_omop_id": 45883838,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 96",
+          "logprob": null,
+          "confidence": 96.0,
+          "verbalized_confidence": 96.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "narrow",
+          "raw_response": "LABEL: narrow\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "broad",
+          "raw_response": "LABEL: broad\nCONFIDENCE: 80",
+          "logprob": null,
+          "confidence": 80.0,
+          "verbalized_confidence": 80.0
+        }
+      ],
+      "vote_counts": {
+        "related": 1,
+        "narrow": 2,
+        "broad": 1
+      },
+      "jury_label": "narrow",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-diet4_1-45884526",
+      "source_term": "1 - 2",
+      "target_label": "1-2",
+      "target_omop_id": 45884526,
+      "gold_label": "exact",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 95",
+          "logprob": null,
+          "confidence": 95.0,
+          "verbalized_confidence": 95.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 98",
+          "logprob": null,
+          "confidence": 98.0,
+          "verbalized_confidence": 98.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "exact",
+          "raw_response": "LABEL: exact\nCONFIDENCE: 100",
+          "logprob": null,
+          "confidence": 100.0,
+          "verbalized_confidence": 100.0
+        }
+      ],
+      "vote_counts": {
+        "exact": 4
+      },
+      "jury_label": "exact",
+      "jury_abstained": false,
+      "jury_correct": true,
+      "unknown_count": 0
+    },
+    {
+      "row_id": "AIRV3-pxrd33_6-36210124",
+      "source_term": "6 - Extremely stressful",
+      "target_label": "Extremely bothersome",
+      "target_omop_id": 36210124,
+      "gold_label": "close",
+      "gold_confidence": 100.0,
+      "judges": [
+        {
+          "judge_name": "Claude",
+          "model": "anthropic/claude-opus-4.7",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 75",
+          "logprob": null,
+          "confidence": 75.0,
+          "verbalized_confidence": 75.0
+        },
+        {
+          "judge_name": "GPT",
+          "model": "openai/gpt-5.5",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 90",
+          "logprob": null,
+          "confidence": 90.0,
+          "verbalized_confidence": 90.0
+        },
+        {
+          "judge_name": "DeepSeek",
+          "model": "deepseek/deepseek-v4-pro",
+          "label": "UNKNOWN",
+          "raw_response": null,
+          "logprob": null,
+          "confidence": null,
+          "verbalized_confidence": null
+        },
+        {
+          "judge_name": "Llama",
+          "model": "meta-llama/llama-4-maverick",
+          "label": "related",
+          "raw_response": "LABEL: related\nCONFIDENCE: 60",
+          "logprob": null,
+          "confidence": 60.0,
+          "verbalized_confidence": 60.0
+        }
+      ],
+      "vote_counts": {
+        "related": 3
+      },
+      "jury_label": "related",
+      "jury_abstained": false,
+      "jury_correct": false,
+      "unknown_count": 1
+    }
+  ]
+}

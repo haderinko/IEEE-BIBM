@@ -1,0 +1,97 @@
+
+══════════════════════════════════════════════════════════════════════════════
+  AI-READI SSSOM BENCHMARK — pilot demonstration  (v3)
+  Mode: DEMO    Temperature: 0.0
+══════════════════════════════════════════════════════════════════════════════
+
+  ROW AIR-001  ·  'HbA1c' → 'Hemoglobin A1c/Hemoglobin.total in Blood'
+      gold: exact    (hidden from judges)
+      Judge       Label        Conf   match
+      ----------  ----------  -----   -----
+      Claude      exact          -    yes
+      GPT         exact        0.95   yes
+      DeepSeek    close        0.66   no
+      Llama       exact        0.90   yes
+      → jury: exact  (exact=3, close=1)  vs gold: ✓
+
+  ROW AIR-002  ·  'BP' → 'Blood pressure systolic and diastolic'
+      gold: broad    (hidden from judges)
+      Judge       Label        Conf   match
+      ----------  ----------  -----   -----
+      Claude      broad          -    yes
+      GPT         broad        0.80   yes
+      DeepSeek    broad        0.70   yes
+      Llama       exact        0.60   no
+      → jury: broad  (broad=3, exact=1)  vs gold: ✓
+
+  ROW AIR-003  ·  'Fasting glucose 8h' → 'Glucose [Mass/volume] in Serum or Plasma --8 hours fasting'
+      gold: close    (hidden from judges)
+      Judge       Label        Conf   match
+      ----------  ----------  -----   -----
+      Claude      close          -    yes
+      GPT         close        0.84   yes
+      DeepSeek    close        0.75   yes
+      Llama       close        0.72   yes
+      → jury: close  (close=4)  vs gold: ✓
+
+  ROW AIR-004  ·  'Eye exam' → 'Retinal photography'
+      gold: narrow    (hidden from judges)
+      Judge       Label        Conf   match
+      ----------  ----------  -----   -----
+      Claude      narrow         -    yes
+      GPT         narrow       0.88   yes
+      DeepSeek    related      0.54   no
+      Llama       narrow       0.76   yes
+      → jury: narrow  (narrow=3, related=1)  vs gold: ✓
+
+  ROW AIR-005  ·  'Smoking' → 'History of tobacco use'
+      gold: related    (hidden from judges)
+      Judge       Label        Conf   match
+      ----------  ----------  -----   -----
+      Claude      related        -    yes
+      GPT         related      0.79   yes
+      DeepSeek    related      0.73   yes
+      Llama       close        0.46   no
+      → jury: related  (related=3, close=1)  vs gold: ✓
+
+──────────────────────────────────────────────────────────────────────────────
+  RUN SUMMARY
+    Rows:               5
+    Coverage:           5/5  (100%) — fraction of rows where the jury committed
+    Conditional acc:    5/5  (100%) — accuracy on committed rows only
+    Abstained:          0 (routed to human curator)
+
+  JUDGE LABEL-DISTRIBUTION CHECK
+    (flag if a judge uses fewer than 3 of 5 SSSOM labels)
+    Judge       distribution over labels                    n_distinct
+    ----------  -----------------------------------------    ----------
+    Claude      exact=1, broad=1, close=1, narrow=1, related=1  5
+    GPT         exact=1, broad=1, close=1, narrow=1, related=1  5
+    DeepSeek    close=2, broad=1, related=2                  3
+    Llama       exact=2, close=2, narrow=1                   3
+
+    ✓ No judges flagged for label-space collapse.
+
+  JUDGE CONFIDENCE SUMMARY
+    Judge        mean   when correct   when wrong  notes
+    ----------  -----  -------------  -----------  -----
+    Claude          -              -            -  provider did not return log-probabilities
+    GPT          0.85           0.85          -  
+    DeepSeek     0.68           0.73         0.60
+    Llama        0.69           0.80         0.53
+
+  CAVEATS (propagated to JSON output)
+    - Single curator: 'gold' labels are one expert's opinion. Second-curator
+      regrade of 50 stratified rows pending. Inter-curator κ will be the
+      human ceiling for all jury-vs-expert metrics.
+    - This script captures per-row data + multi-row sanity checks only.
+      Downstream analysis computes: weighted κ with directional SSSOM cost
+      matrix, Fleiss κ / Krippendorff α (inter-judge), McNemar (jury vs.
+      best single judge), bootstrap 95% CIs, all stratified by SSSOM tier.
+    - Ahmed et al. (MSR'25): adopted label-distribution flag rule and
+      per-judge confidence logging for confidence-based sample selection.
+
+══════════════════════════════════════════════════════════════════════════════
+
+  Full JSON saved to: /home/claude/motivating_example_output.json
+

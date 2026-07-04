@@ -1,0 +1,45 @@
+{
+  "row": {
+    "source_term": "HbA1c",
+    "target_label": "Hemoglobin A1c/Hemoglobin.total in Blood",
+    "target_omop_id": 3004410,
+    "gold_sssom_label": "exact"
+  },
+  "prompt": "You are evaluating the quality of a translation between a clinical source term and a target OMOP concept.\n\nRate the mapping quality on the SSSOM scale, choosing exactly ONE label:\n\n - exact   : source and target represent the same concept\n - close   : nearly the same; minor lexical or specificity difference\n - narrow  : the target is more specific than the source\n - broad   : the target is more general than the source\n - related : connected but not equivalent\n\nSource term:  \"HbA1c\"\nTarget OMOP:  \"Hemoglobin A1c/Hemoglobin.total in Blood\" (concept_id: 3004410)\n\nRespond with ONE word only from the set above. No explanation.",
+  "judges": [
+    {
+      "judge_name": "Claude",
+      "label": "exact",
+      "raw_response": "exact"
+    },
+    {
+      "judge_name": "GPT",
+      "label": "exact",
+      "raw_response": "exact"
+    },
+    {
+      "judge_name": "DeepSeek",
+      "label": "close",
+      "raw_response": "close"
+    },
+    {
+      "judge_name": "Llama",
+      "label": "exact",
+      "raw_response": "exact"
+    }
+  ],
+  "jury_label": "exact",
+  "gold_label": "exact",
+  "vote_counts": {
+    "exact": 3,
+    "close": 1
+  },
+  "per_judge_correct": {
+    "Claude": true,
+    "GPT": true,
+    "DeepSeek": false,
+    "Llama": true
+  },
+  "jury_correct": true,
+  "mode": "demo"
+}
