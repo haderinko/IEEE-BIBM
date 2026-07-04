@@ -1,0 +1,17 @@
+You are grading the semantic quality of a biomedical concept mapping.
+
+Source term: "{source_term}"
+Target concept: "{target_label}" (OMOP concept_id: {target_omop_id})
+
+Rate the mapping on the SSSOM five-tier scale (pick EXACTLY ONE):
+  exact   — identical concepts
+  close   — near-identical, minor specificity gap
+  narrow  — target is more specific than source (target ⊂ source)
+  broad   — target is more general than source (source ⊂ target)
+  related — connected but not equivalent
+
+Also report how confident you are (0-100 integer).
+
+Respond in EXACTLY this format, no extra text:
+LABEL: <tier>
+CONFIDENCE: <integer 0-100>
