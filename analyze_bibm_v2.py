@@ -174,7 +174,7 @@ def aurc(rc_points):
     pts.sort(key=lambda p: p["coverage"])
     cov = np.array([p["coverage"] for p in pts])
     risk = 1.0 - np.array([p["sel_accuracy"] for p in pts])
-    return float(np.trapz(risk, cov))
+    return float(np.trapezoid(risk, cov))
 
 
 # ─────────────────────────────────────────────────────────────────────

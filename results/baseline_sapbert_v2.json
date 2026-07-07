@@ -1,0 +1,1351 @@
+{
+  "model": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+  "n_rows": 220,
+  "accuracy": 0.6727272727272727,
+  "kappa_unweighted": 0.5353612390366959,
+  "kappa_quadratic": 0.7954229717819638,
+  "meta": {
+    "tier_medians": {
+      "exact": 1.0,
+      "close": 0.6772041618824005,
+      "narrow": 0.6131041646003723,
+      "broad": 0.6622167825698853,
+      "related": 0.3221479058265686
+    },
+    "thresholds": [
+      0.8386020809412003,
+      0.6697104722261429,
+      0.6376604735851288,
+      0.46762603521347046
+    ],
+    "order": [
+      "exact",
+      "close",
+      "broad",
+      "narrow",
+      "related"
+    ]
+  },
+  "rows": [
+    {
+      "row_id": "R001",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.6210111379623413
+    },
+    {
+      "row_id": "R002",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.5981938242912292
+    },
+    {
+      "row_id": "R003",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.8295677900314331
+    },
+    {
+      "row_id": "R004",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.4558994770050049
+    },
+    {
+      "row_id": "R005",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.5002457499504089
+    },
+    {
+      "row_id": "R006",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.27042683959007263
+    },
+    {
+      "row_id": "R007",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.6258829832077026
+    },
+    {
+      "row_id": "R008",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "R009",
+      "gold": "broad",
+      "pred": "related",
+      "cosine": 0.3666174113750458
+    },
+    {
+      "row_id": "R010",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "R011",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.8076530694961548
+    },
+    {
+      "row_id": "R012",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.5593289732933044
+    },
+    {
+      "row_id": "R013",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.6238898038864136
+    },
+    {
+      "row_id": "R014",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.423572301864624
+    },
+    {
+      "row_id": "R015",
+      "gold": "narrow",
+      "pred": "exact",
+      "cosine": 0.9788649678230286
+    },
+    {
+      "row_id": "R016",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.4200649857521057
+    },
+    {
+      "row_id": "R017",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.6719452142715454
+    },
+    {
+      "row_id": "R018",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.6565868854522705
+    },
+    {
+      "row_id": "R019",
+      "gold": "broad",
+      "pred": "related",
+      "cosine": 0.4230501651763916
+    },
+    {
+      "row_id": "R020",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.8634907007217407
+    },
+    {
+      "row_id": "R021",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.5566775798797607
+    },
+    {
+      "row_id": "R022",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.6682804822921753
+    },
+    {
+      "row_id": "R023",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.25366494059562683
+    },
+    {
+      "row_id": "R024",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.19376814365386963
+    },
+    {
+      "row_id": "R025",
+      "gold": "exact",
+      "pred": "broad",
+      "cosine": 0.6468791961669922
+    },
+    {
+      "row_id": "R026",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.48383966088294983
+    },
+    {
+      "row_id": "R027",
+      "gold": "close",
+      "pred": "related",
+      "cosine": 0.4577651619911194
+    },
+    {
+      "row_id": "R028",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "R029",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3238900899887085
+    },
+    {
+      "row_id": "R030",
+      "gold": "narrow",
+      "pred": "close",
+      "cosine": 0.675560474395752
+    },
+    {
+      "row_id": "R031",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.4915916919708252
+    },
+    {
+      "row_id": "R032",
+      "gold": "close",
+      "pred": "related",
+      "cosine": 0.42748787999153137
+    },
+    {
+      "row_id": "R033",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.18874654173851013
+    },
+    {
+      "row_id": "R034",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "R035",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.7977105379104614
+    },
+    {
+      "row_id": "R036",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.23710989952087402
+    },
+    {
+      "row_id": "R037",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.02612600475549698
+    },
+    {
+      "row_id": "R038",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.49088990688323975
+    },
+    {
+      "row_id": "R039",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.5383786559104919
+    },
+    {
+      "row_id": "R040",
+      "gold": "close",
+      "pred": "related",
+      "cosine": 0.4190930724143982
+    },
+    {
+      "row_id": "R041",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.5126102566719055
+    },
+    {
+      "row_id": "R042",
+      "gold": "close",
+      "pred": "close",
+      "cosine": 0.6861278414726257
+    },
+    {
+      "row_id": "R043",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.30887800455093384
+    },
+    {
+      "row_id": "R044",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2675124406814575
+    },
+    {
+      "row_id": "R045",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.519599199295044
+    },
+    {
+      "row_id": "R046",
+      "gold": "close",
+      "pred": "related",
+      "cosine": 0.2872168719768524
+    },
+    {
+      "row_id": "R047",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.550338864326477
+    },
+    {
+      "row_id": "R048",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.43280887603759766
+    },
+    {
+      "row_id": "R049",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "R050",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.47603774070739746
+    },
+    {
+      "row_id": "rtma_odw",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "mhoccur_fall",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.7074226140975952
+    },
+    {
+      "row_id": "paid_eng",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "viaodsph",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.6051971912384033
+    },
+    {
+      "row_id": "pxdhc4",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.8579834699630737
+    },
+    {
+      "row_id": "pxrd49",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.4260038137435913
+    },
+    {
+      "row_id": "mhoccur_yn",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "mhoccur_mi",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.32120198011398315
+    },
+    {
+      "row_id": "diet9",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "5",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "3",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.20218616724014282
+    },
+    {
+      "row_id": "pxrd51",
+      "gold": "narrow",
+      "pred": "close",
+      "cosine": 0.7215946912765503
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.000000238418579
+    },
+    {
+      "row_id": "pxahc6",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "viaosaxi",
+      "gold": "narrow",
+      "pred": "narrow",
+      "cosine": 0.5585634112358093
+    },
+    {
+      "row_id": "12",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxrd7",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.27123570442199707
+    },
+    {
+      "row_id": "mssrf10",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.31862130761146545
+    },
+    {
+      "row_id": "mhoccur_rnl",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.21604646742343903
+    },
+    {
+      "row_id": "lbscat_wbc",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "0",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.5618468523025513
+    },
+    {
+      "row_id": "mhoccur_cns",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.34002891182899475
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.323249489068985
+    },
+    {
+      "row_id": "rtfncmpdattim",
+      "gold": "broad",
+      "pred": "related",
+      "cosine": 0.3585081696510315
+    },
+    {
+      "row_id": "pxne6",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9407660961151123
+    },
+    {
+      "row_id": "studyid",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.8698863983154297
+    },
+    {
+      "row_id": "pxne4",
+      "gold": "broad",
+      "pred": "exact",
+      "cosine": 0.9435722827911377
+    },
+    {
+      "row_id": "0",
+      "gold": "narrow",
+      "pred": "close",
+      "cosine": 0.7805267572402954
+    },
+    {
+      "row_id": "pxrd11",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3454253077507019
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3728242516517639
+    },
+    {
+      "row_id": "via4",
+      "gold": "close",
+      "pred": "close",
+      "cosine": 0.7402129173278809
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "diet1",
+      "gold": "narrow",
+      "pred": "close",
+      "cosine": 0.8267180919647217
+    },
+    {
+      "row_id": "pxsficmpdat",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2591935694217682
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "rtma_odm1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxrd46",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2954549789428711
+    },
+    {
+      "row_id": "pxne11",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxrd40",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.33625856041908264
+    },
+    {
+      "row_id": "5",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "pxahc9",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3608071208000183
+    },
+    {
+      "row_id": "dmgstartts",
+      "gold": "broad",
+      "pred": "exact",
+      "cosine": 0.8421064615249634
+    },
+    {
+      "row_id": "lbscat_rbc",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "pxrd37",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3519739806652069
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "dricmpdat",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.5419833064079285
+    },
+    {
+      "row_id": "22",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "777",
+      "gold": "close",
+      "pred": "close",
+      "cosine": 0.7183824181556702
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2940918207168579
+    },
+    {
+      "row_id": "0",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.35279011726379395
+    },
+    {
+      "row_id": "pxsdohcmpts",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.6635802388191223
+    },
+    {
+      "row_id": "555",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.9189682006835938
+    },
+    {
+      "row_id": "rtsm_odn",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "diet5",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "0",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxrd45",
+      "gold": "narrow",
+      "pred": "close",
+      "cosine": 0.6816776990890503
+    },
+    {
+      "row_id": "pxrd28",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.356229305267334
+    },
+    {
+      "row_id": "cm_asp",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.6253957152366638
+    },
+    {
+      "row_id": "4",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "555",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.926021933555603
+    },
+    {
+      "row_id": "8",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0000001192092896
+    },
+    {
+      "row_id": "pxrd31",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.30982357263565063
+    },
+    {
+      "row_id": "98",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.8677181005477905
+    },
+    {
+      "row_id": "suvptoage",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "reccmpdat",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.6391089558601379
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.28938788175582886
+    },
+    {
+      "row_id": "6",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.5764602422714233
+    },
+    {
+      "row_id": "5",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "preconstartts",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.7788971662521362
+    },
+    {
+      "row_id": "rtso_odp",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0000001192092896
+    },
+    {
+      "row_id": "pxrd27",
+      "gold": "narrow",
+      "pred": "broad",
+      "cosine": 0.665008544921875
+    },
+    {
+      "row_id": "susmkstaage",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.8884317874908447
+    },
+    {
+      "row_id": "rtop_odd",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxrdcmpts",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.4730116128921509
+    },
+    {
+      "row_id": "mhoccur_circ",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3478085994720459
+    },
+    {
+      "row_id": "35",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "mhoccur_pdr",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2898347079753876
+    },
+    {
+      "row_id": "lbdattim1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.46686479449272156
+    },
+    {
+      "row_id": "0",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "13",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "cmtrt_a1c",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "rtop_odm",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "C51773",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "555",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxrdstartts",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.5515033006668091
+    },
+    {
+      "row_id": "dmlsugar",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0000001192092896
+    },
+    {
+      "row_id": "4",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "via6",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "susmkncf",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.8781223893165588
+    },
+    {
+      "row_id": "scrstartts",
+      "gold": "narrow",
+      "pred": "exact",
+      "cosine": 0.869564950466156
+    },
+    {
+      "row_id": "rt_dat",
+      "gold": "broad",
+      "pred": "exact",
+      "cosine": 0.8453414440155029
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "dmlmd",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "pxrd14",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.30288994312286377
+    },
+    {
+      "row_id": "rtei_odfaf",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3680374026298523
+    },
+    {
+      "row_id": "height_vsorres",
+      "gold": "close",
+      "pred": "close",
+      "cosine": 0.8292626738548279
+    },
+    {
+      "row_id": "pxnecmpdat",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2961817681789398
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "cage",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.9143631458282471
+    },
+    {
+      "row_id": "viaospscore",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "sumrjstage",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.8798933625221252
+    },
+    {
+      "row_id": "dvamwenhand_3",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0000001192092896
+    },
+    {
+      "row_id": "0",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "dvamwenhand",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "paidcmpdat",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3023912012577057
+    },
+    {
+      "row_id": "rtsm_odm",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "mhoccur_oa",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3221479058265686
+    },
+    {
+      "row_id": "10",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0000001192092896
+    },
+    {
+      "row_id": "msslffl",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "dmlgrain",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999998807907104
+    },
+    {
+      "row_id": "pxsdohcmpdat",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3101674020290375
+    },
+    {
+      "row_id": "ces2",
+      "gold": "close",
+      "pred": "narrow",
+      "cosine": 0.5545377731323242
+    },
+    {
+      "row_id": "pxfi2",
+      "gold": "related",
+      "pred": "exact",
+      "cosine": 0.8617005348205566
+    },
+    {
+      "row_id": "pxrdcmpdat",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2747149169445038
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "viaodmsf",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "pxdhc5",
+      "gold": "narrow",
+      "pred": "exact",
+      "cosine": 0.9072298407554626
+    },
+    {
+      "row_id": "paid_wr",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "5",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "mhcat_adot",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.4366314113140106
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.3437179625034332
+    },
+    {
+      "row_id": "0",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "C51774",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0000001192092896
+    },
+    {
+      "row_id": "px270201_metadata",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.7169435620307922
+    },
+    {
+      "row_id": "viacmpts",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.6422923803329468
+    },
+    {
+      "row_id": "cm_slp",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxfistartts",
+      "gold": "broad",
+      "pred": "broad",
+      "cosine": 0.6622167825698853
+    },
+    {
+      "row_id": "14",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "sumrjtrt",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "weight_vsorres",
+      "gold": "close",
+      "pred": "close",
+      "cosine": 0.816131055355072
+    },
+    {
+      "row_id": "pxsficmpts",
+      "gold": "broad",
+      "pred": "narrow",
+      "cosine": 0.5431804656982422
+    },
+    {
+      "row_id": "6",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "viaodmlog",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "close",
+      "pred": "exact",
+      "cosine": 0.8497058153152466
+    },
+    {
+      "row_id": "rtoctcmpdattim",
+      "gold": "broad",
+      "pred": "related",
+      "cosine": 0.3957955241203308
+    },
+    {
+      "row_id": "dvamwendat",
+      "gold": "related",
+      "pred": "narrow",
+      "cosine": 0.6305317878723145
+    },
+    {
+      "row_id": "paid_dpr",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "mhstartts",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.8130152821540833
+    },
+    {
+      "row_id": "19",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9888666868209839
+    },
+    {
+      "row_id": "via2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "mhoccur_amd",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.28963086009025574
+    },
+    {
+      "row_id": "paid_cml",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "5",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxdhc2",
+      "gold": "narrow",
+      "pred": "close",
+      "cosine": 0.7839276790618896
+    },
+    {
+      "row_id": "10",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "pxhic3",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "dmlpor",
+      "gold": "related",
+      "pred": "close",
+      "cosine": 0.6973012685775757
+    },
+    {
+      "row_id": "px281501_metadata",
+      "gold": "broad",
+      "pred": "close",
+      "cosine": 0.7509616613388062
+    },
+    {
+      "row_id": "dvamwendhand",
+      "gold": "close",
+      "pred": "broad",
+      "cosine": 0.6540900468826294
+    },
+    {
+      "row_id": "rtei_odir",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "lbscat_a1c",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "paid_scrd",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "1",
+      "gold": "related",
+      "pred": "related",
+      "cosine": 0.2849969267845154
+    },
+    {
+      "row_id": "pxrd42",
+      "gold": "narrow",
+      "pred": "related",
+      "cosine": 0.44361162185668945
+    },
+    {
+      "row_id": "suvpdosfr",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 0.9999999403953552
+    },
+    {
+      "row_id": "1",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    },
+    {
+      "row_id": "2",
+      "gold": "exact",
+      "pred": "exact",
+      "cosine": 1.0
+    }
+  ]
+}

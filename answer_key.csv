@@ -1,0 +1,206 @@
+row_id,source_label,target_concept_name,origin,reference_label,reference_confidence
+R031,eGFR by CKD-EPI 2021 equation,Glomerular filtration rate,overlap,broad,80
+rtma_odw,M2-3D Wide(H) 12x9-OCT,M2-3D Wide(H) 12x9-OCT,new,exact,1
+mhoccur_fall,Have you fallen in the last 12 months? (a fall is defined as an event which results in a person coming to rest inadvertently on the ground or floor or other lower level),Falls in the past year,new,close,1
+paid_eng,Feeling that diabetes is taking up too much of your mental and physical energy every day,Feeling that diabetes is taking up too much of your mental and physical energy every day,new,exact,1
+viaodsph,OD - Autorefractor - Sphere,Right eye Sphere Autorefractor.auto,new,close,1
+pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,new,close,0.75
+pxrd49,How often in the past year?,"How often have you been made fun of, picked on, pushed, shoved, hit or threatened with harm because of your race/ethnic group? How often in the past year?",new,exact,1
+mhoccur_yn,"Have you been diagnosed with any conditions not listed above? (any condition, not just eyes)","Have you been diagnosed with any conditions not listed above? (any condition, not just eyes)",new,exact,1
+R034,VA Letter Score - Photopic VA - OD,VA Letter Score - Photopic VA - OD,overlap,exact,90
+mhoccur_mi,Heart attack,Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+diet9,How many servings of fruit juice did you drink each day?,How many servings of fruit juice did you drink each day?,new,exact,1
+5,Irregular; once or twice a week,Irregular; once or twice a week,new,exact,1
+R013,Provide the last study visit/stage completed:,Date of last examination,overlap,close,80
+3,Withdrawal by Subject,Withdrawal by Subject,new,exact,1
+1,Yes,Able to modify behavior and lifestyle to support health improvement,new,exact,1
+pxrd51,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been made fun of, picked on, pushed, shoved, hit or threatened with harm because of your race/ethnic group? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",new,exact,1
+1,5000 miles or less,5000 miles or less,new,exact,1
+pxahc6,"During the past 12 months, how many times have you gone to an urgent care center or a clinic in a drug store or grocery store about your health?Urgent care centers and clinics in drug stores or grocery stores are places where you do not need to make an appointment ahead of time, and do not usually see the same health care provider at each visit. This is different from a hospital emergency room.","During the past 12 months, how many times have you gone to an urgent care center or a clinic in a drug store or grocery store about your health?Urgent care centers and clinics in drug stores or grocery stores are places where you do not need to make an appointment ahead of time, and do not usually see the same health care provider at each visit. This is different from a hospital emergency room.",new,exact,1
+viaosaxi,OS - Autorefractor - Axis,Left eye Axis Autorefractor.auto,new,close,1
+12,"12TH Grade, No diploma","12th grade, no diploma",new,exact,1
+R048,Foot examination,Diabetic foot screening with monofilament,overlap,narrow,90
+pxrd7,How often in the past year?,"How often have you been treated unfairly by your co-workers, fellow students, and colleagues because of your race/ethnic group? How often in the past year?",new,exact,1
+R050,Diet,Low carbohydrate diet,overlap,narrow,90
+R004,Eye exam,Retinal photography,overlap,narrow,90
+mssrf10,Site 10,Monofilament foot sensation test,new,exact,1
+mhoccur_rnl,Kidney problems,Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+lbscat_wbc,White Blood Cells (WBC) - x10E3/µL,White Blood Cells (WBC) - x10E3/µL,new,exact,1
+0,Less than 1,Less than 1 drink a week,new,exact,1
+mhoccur_cns,Other neurological conditions,Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+1,3 - 4,3-4,new,exact,1
+R027,Total cholesterol,Cholesterol [Mass/volume] in Serum or Plasma,overlap,close,90
+1,Yes,Minimal cognitive impairment,new,exact,1
+rtfncmpdattim,Date & time Fundus - Edion performed,Performed,new,close,0.75
+pxne6,"My neighborhood has several free or low cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...","My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc [PhenX]",new,exact,1
+studyid,Participant Study ID,Participant identifier,new,exact,1
+pxne4,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,There are sidewalks on most of the streets in my neighborhood [PhenX],new,exact,1
+R023,Demographic survey date (date survey/form opened),Performed,overlap,related,80
+R046,Fasting triglycerides 12h,Triglyceride [Mass/volume] in Serum or Plasma,overlap,close,90
+0,Not Covered,Not Covered by Insurance,new,exact,1
+pxrd11,How often in your entire life?,"How often have you been treated unfairly by people in service jobs (by store clerks, waiters, bartenders, bank tellers and others) because of your race/ethnic group? How often in your entire life?",new,exact,1
+1,Yes,Arthritis,new,exact,1
+R026,Date BCVA performed,Performed,overlap,related,80
+via4,When was the last time you had your eyes examined by an eye care provider (ophthalmologist or optometrist)?,Date of last eye examination,new,close,0.75
+2,Do not have/know an eye doctor,Do not have/know an eye doctor,new,exact,1
+diet1,How many times a week did you eat fast food meals or snacks?,How many times a week did you eat fast food or snacks or pizza in past 7 days [SAMHSA],new,exact,1
+R018,CES-D-10 Survey Started Timestamp (from REDCap),Survey Started Timestamp,overlap,broad,80
+pxsficmpdat,PhenX Food Insecurity survey date,Performed,new,close,0.75
+2,Sometimes true,Sometimes true,new,exact,1
+rtma_odm1,M2-Mac 6x6-360x360-(rep3)-OCTA,M2-Mac 6x6-360x360-(rep3)-OCTA,new,exact,1
+pxrd46,How often in the past year?,How often have you gotten into an argument or a fight about something racist that was done to you or done to another member or your race/ethnic group? How often in the past year?,new,exact,1
+pxne11,"How many motor vehicles in working order (e.g., cars, trucks, motorcycles) are there at your household?","How many motor vehicles in working order (e.g., cars, trucks, motorcycles) are there at your household?",new,exact,1
+2,In Person (Baseline),In Person (Baseline),new,exact,1
+pxrd40,How often in the past year?,"How often have you been forced to take drastic steps (such as filing a grievance, filing a lawsuit, quitting your job, moving away, and other actions) to deal with some racist thing that was done towards you? How often in the past year?",new,exact,1
+5,Rarely eat whole grain,Rarely eat whole grain,new,exact,1
+R019,Fingerstick glucose at clinic visit,Blood glucose measurement,overlap,broad,90
+2,2ND Grade,2nd grade,new,exact,1
+R021,Serum creatinine,Creatinine [Mass/volume] in Serum or Plasma,overlap,broad,80
+pxahc9,"During the past 12 months, have you DELAYED getting medical care because of the cost?","During the past 12 months, have you DELAYED getting medical care because of the cost?",new,exact,1
+1,Yes,Stroke,new,exact,1
+dmgstartts,Demographics Survey Started Timestamp (from REDCap),Survey Started Timestamp,new,close,0.75
+lbscat_rbc,Red Blood Cells (RBC) - x10E6/µL,Red Blood Cells (RBC) - x10E6/µL,new,exact,1
+pxrd37,How often in the past year?,How often have you been really angry about something racist that was done to you? How often in the past year?,new,exact,1
+R032,"Walking 30+ min/day, 5+ days/week",Physical exercise,overlap,close,80
+1,EVA,EVA,new,exact,1
+dricmpdat,Date driving record assessment conducted,Date,new,exact,1
+22,22 to 28,22 to 28,new,exact,1
+777,Decline to answer,Prefer not to say,new,exact,1
+1,Yes,Chronic lung disease,new,exact,1
+0,"I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)","I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)",new,exact,1
+1,Yes,Glaucoma,new,exact,1
+pxsdohcmpts,PhenX SDOH Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,new,close,0.75
+555,Don't know / unsure,Don't know,new,exact,1
+rtsm_odn,Eidon-UWF Nasal-CFP,Eidon-UWF Nasal-CFP,new,exact,1
+diet5,"How many times a week did you eat beans (like pinto or black beans), chicken, or fish?","How many times a week did you eat beans (like pinto or black beans), chicken, or fish?",new,exact,1
+0,There is NO place,There is NO place,new,exact,1
+pxrd45,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been called a racist name? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",new,exact,1
+pxrd28,How often in the past year?,"How often have you been accused or suspected of doing something wrong (such as stealing, cheating, not doing your share of the work, or breaking the law) because of your race/ethnic group? How often in the past year?",new,exact,1
+cm_asp,Have you taken aspirin in the past 2 weeks?,Have you taken aspirin in the past 2 weeks?,new,exact,1
+1,Very well,Very well,new,exact,1
+R040,Cognitive test,Montreal Cognitive Assessment total score,overlap,close,70
+1,Within the past month (anytime less than 1 month ago),Within 30 days,new,close,1
+R014,Diabetes medications,metformin hydrochloride 500 MG Oral Tablet,overlap,narrow,90
+4,Individual had Type 1 Diabetes,Individual had Type 1 Diabetes,new,exact,1
+R001,OS: Log Contrast Sensitivity,"OS: Log Contrast Sensitivity - Mesopic, left eye",overlap,narrow,90
+555,Don't know/Not sure,Don't know,new,exact,1
+R003,Consent Survey Start Timestamp,Survey Started Timestamp,overlap,broad,80
+8,8TH Grade,8th grade,new,exact,1
+pxrd31,How often in the past year?,How often have people misunderstood your intentions and motives because of your race/ethnic group? How often in the past year?,new,exact,1
+R002,Point-of-care HbA1c (capillary),Hemoglobin A1c measurement,overlap,broad,80
+98,More than 50 years,More than 50 years,new,exact,1
+2,Individual is pregnant,Currently pregnant,new,close,1
+suvptoage,How many total years have you vaped or used e-cigarettes?,How many total years have you vaped or used e-cigarettes?,new,exact,1
+reccmpdat,Recruitment survey date (date survey/form opened),Survey reporting period start date,new,close,0.75
+1,Yes,Retinal vascular occlusion,new,exact,1
+6,Totally different,Major change,new,close,0.75
+5,"More than 20,000 miles","More than 20,000 miles",new,exact,1
+preconstartts,Pre-consent Survey Started Timestamp (from REDCap),Survey Started Timestamp,new,close,0.75
+rtso_odp,Spec-PPole Mac-HR-61 lines-OCT,Spec-PPole Mac-HR-61 lines-OCT,new,exact,1
+pxrd27,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been treated unfairly by people that you thought were your friends because of your race/ethnic group? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",new,exact,1
+susmkstaage,At what age did you start smoking? (Age started - years old),At which age did you start smoking [PhenX],new,exact,1
+rtop_odd,OptoMed-Disc centered-CFP,OptoMed-Disc centered-CFP,new,exact,1
+pxrdcmpts,PhenX Racial/Ethnic Discrimination Survey Completed Timestamp (from REDCap),Survey Started Timestamp,new,exact,1
+mhoccur_circ,"Circulation problems (Examples: arteriosclerosis, atherosclerosis, blood clots in lungs or leg veins)",Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+35,More than 36 (greater than 7 bottles),More than 36 (greater than 7 bottles),new,exact,1
+mhoccur_pdr,Diabetic retinopathy (in one or both eyes),Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+R030,OS: Log Contrast Sensitivity,"OS: Log Contrast Sensitivity - Photopic, left eye",overlap,narrow,90
+lbdattim1,Date & time clinical labs performed,Performed,new,close,0.75
+0,Very little,Very little,new,exact,1
+13,High School Graduate,High school graduate,new,exact,1
+2,Occasionally or a moderate amount of time (3-4 days),Occasionally or a moderate amount of time (3-4 days),new,exact,1
+cmtrt_a1c,"Do you take pills to control your A1C and blood glucose levels? Examples: Metformin (Glucophage, Glumetza, Fortamet, Riomet), Glucotrol, Amaryl, DiaBeta, Blynase PresTab, Micronase, Actos, Avandia, Precose, Glyset, Prandin, Starlix, Januvia, Onglyza, Tradjenta, Nesina, Invokana, Farxiga, Jardiance, Welchol, and Cyclocet","Do you take pills to control your A1C and blood glucose levels? Examples: Metformin (Glucophage, Glumetza, Fortamet, Riomet), Glucotrol, Amaryl, DiaBeta, Blynase PresTab, Micronase, Actos, Avandia, Precose, Glyset, Prandin, Starlix, Januvia, Onglyza, Tradjenta, Nesina, Invokana, Farxiga, Jardiance, Welchol, and Cyclocet",new,exact,1
+rtop_odm,OptoMed-Mac centered-CFP,OptoMed-Mac centered-CFP,new,exact,1
+C51773,Married,Married,new,exact,1
+555,Unknown,Unknown,new,exact,1
+pxrdstartts,PhenX Racial/Ethnic Discrimination Survey Started Timestamp (from REDCap),Survey Completed Timestamp,new,exact,1
+dmlsugar,"When reflecting on your typical eating habits, which of the following options best describes how often you consume simple sugars?","When reflecting on your typical eating habits, which of the following options best describes how often you consume simple sugars?",new,exact,1
+4,30 - 39 times,30 - 39 times,new,exact,1
+R033,CES-D-10 survey date,Performed,overlap,related,80
+via6,When was the last time you had an eye exam in which the pupils were dilated? (This would have made you temporarily sensitive to bright light),When was the last time you had an eye exam in which the pupils were dilated? (This would have made you temporarily sensitive to bright light),new,exact,1
+R042,"If yes, at what age were you first diagnosed?",Age at diagnosis,overlap,close,90
+susmkncf,Have you smoked at least 100 cigarettes or more in your lifetime?  (100 cigarettes = 5 packs),Smoked at least 100 cigarettes in entire life,new,exact,1
+scrstartts,Screening Survey Started Timestamp (from REDCap),Survey Started Timestamp,new,close,0.75
+rt_dat,Assessment Date,Date,new,exact,1
+1,Often true,Often true,new,exact,1
+R007,Exercise,Aerobic exercise --moderate intensity,overlap,narrow,80
+dmlmd,Which of the following options best describes you with respect to physician care and medications?,Which of the following options best describes you with respect to physician care and medications?,new,exact,1
+pxrd14,How often in your entire life?,How often have you been treated unfairly by strangers because of your race/ethnic group? How often in your entire life?,new,exact,1
+rtei_odfaf,Eidon-UWF Central-FAF,Eidon-UWF Central-FAF,new,exact,1
+1,Yes,Smoked at least 100 cigarettes in entire life,new,exact,1
+R025,HbA1c test,Hemoglobin A1c/Hemoglobin.total in Blood,overlap,exact,90
+height_vsorres,Height (cm),Body height,new,exact,1
+pxnecmpdat,PhenX Neighborhood Enviroment survey date,Performed,new,close,0.75
+2,Brother,Brother,new,exact,1
+cage,Age (in years),Age,new,exact,1
+viaospscore,Photopic LogMAR OS Score,Photopic LogMAR OS Score,new,exact,1
+R020,BP,Blood pressure,overlap,exact,90
+2,There is MORE THAN ONE place,There is MORE THAN ONE place,new,exact,1
+sumrjstage,At what age did you start using marijuana? (Age started - years old),Age when first used marijuana,new,exact,1
+dvamwenhand_3,Not Provided,Not Provided,new,exact,1
+R039,Mark questions from Inclusion/Exclusion that were not met.,Not eligible for participation in research study,overlap,related,80
+R038,Blood pressure check,Systolic blood pressure --sitting,overlap,narrow,90
+0,5 or more,5 or more,new,exact,1
+dvamwenhand,Physical Activity Monitor was worn on which wrist?,Physical Activity Monitor was worn on which wrist?,new,exact,1
+paidcmpdat,PAID-5 DM survey date,Performed,new,close,0.75
+rtsm_odm,Eidon-Create Mosaic Image-CFP,Eidon- Create Mosaic Image-CFP,new,exact,1
+mhoccur_oa,Osteoporosis,Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+10,10TH Grade,10th grade,new,exact,1
+msslffl,Left Foot - Felt:,Left Foot - Felt:,new,exact,1
+dmlgrain,"In a typical day, how often do you consume whole grains? (Examples: include whole wheat, brown bread, or brown rice).","In a typical day, how often do you consume whole grains? (Examples: include whole wheat, brown bread, or brown rice).",new,exact,1
+pxsdohcmpdat,PhenX SDOH survey date,Performed,new,close,0.75
+ces2,I had trouble keeping my mind on what I was doing,Trouble focusing,new,exact,1
+pxfi2,"(I/we) couldn't afford to eat balanced meals."" Was that often, sometimes, or never true for (you/your household) in the last 12 months?","In the last 12 months, we couldn't afford to eat balanced meals [U.S. FSS]",new,exact,1
+pxrdcmpdat,PhenX Racial/Ethnic Discrimination survey date,Performed,new,close,0.75
+1,Covered,Covered,new,exact,1
+viaodmsf,Snellen fraction - Mesopic VA - OD,Snellen fraction - Mesopic VA - OD,new,exact,1
+R012,CES-D-10 Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,overlap,broad,80
+pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,new,close,0.75
+paid_wr,Worrying about the future and the possibility of serious complications,Worrying about the future and the possibility of serious complications,new,exact,1
+5,No reason to go (no problem),No reason to go (no problem),new,exact,1
+R024,Glucose test,Glucose [Mass/volume] in Serum or Plasma --8 hours fasting,overlap,narrow,80
+2,11 - 19 times,11 - 19 times,new,exact,1
+mhcat_adot,"If yes, please choose between:",Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+1,Yes,Prediabetes,new,exact,1
+0,Rarely or none. Not taking 1 or more recommended medicines,Rarely or none. Not taking 1 or more recommended medicines,new,exact,1
+C51774,Single,Single,new,exact,1
+px270201_metadata,PhenX English Proficiency MetaData,PhenX MetaData,new,exact,1
+R044,Yes,Age related macular degeneration,overlap,related,90
+R017,What was the primary reason the subject discontinued?,Reason for,overlap,broad,70
+viacmpts,Ophthalmic Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,new,close,0.75
+cm_slp,Have you taken sleeping pills in the past 2 weeks?,Have you taken sleeping pills in the past 2 weeks?,new,exact,1
+R011,Ethnicity,Ancestry,overlap,broad,80
+pxfistartts,PhenX Food Insecurity Survey Started Timestamp (from REDCap),Survey Started Timestamp,new,exact,1
+R016,Date paper consent completed,Performed,overlap,related,80
+14,GED or Equivalent,GED or equivalent,new,exact,1
+sumrjtrt,In what form do you usually use marijuana?  (check all that apply),In what form do you usually use marijuana?  (check all that apply),new,exact,1
+weight_vsorres,Weight (kilograms),Body weight,new,exact,1
+pxsficmpts,PhenX Food Insecurity Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,new,exact,1
+6,Currently enrolled in a conflicting study,Currently enrolled in a conflicting study,new,exact,1
+viaodmlog,LLVA Letter Score - Mesopic VA - OD,LLVA Letter Score - Mesopic VA - OD,new,exact,1
+1,Pre-Visit,Before appointment,new,close,0.75
+rtoctcmpdattim,Date & time OCT - Triton OCT performed,Performed,new,close,0.75
+dvamwendat,Date device received back from participant,Date,new,exact,1
+paid_dpr,Feeling depressed when you think about living with diabetes,Feeling depressed when you think about living with diabetes,new,exact,1
+mhstartts,Health Survey Started Timestamp (from REDCap),Survey Started Timestamp,new,close,0.75
+19,"Master's Degree (Example: MA, MS, MEng, MEd, MBA)","Master's degree (e.g., MA, MS, MEng, MEd, MSW, MBA)",new,exact,1
+via2,"How much difficulty, if any, do you have reading print in newspapers, magazines, recipes, menus, or numbers on the telephone? Would you say:","How much difficulty, if any, do you have reading print in newspapers, magazines, recipes, menus, or numbers on the telephone? Would you say:",new,exact,1
+R029,Consent survey/form date (date survey/form opened),Performed,overlap,related,80
+mhoccur_amd,Age-related macular degeneration (AMD) (in one or both eyes),Has a doctor or other healthcare professional ever told you that you have/had...,new,exact,1
+paid_cml,Coping with complications of diabetes,Coping with complications of diabetes,new,exact,1
+5,40 - 49 times,40 - 49 times,new,exact,1
+pxdhc2,You are treated with less respect than other people.,You have been treated with less respect than other people [PhenX],new,close,0.75
+10,3 or more visits a year to the same doctor. Regular with medicines.,3 or more visits a year to the same doctor. Regular with medicines.,new,exact,1
+pxhic3,"Medicare, for people 65 and older, or people with certain disabilities.","Medicare, for people 65 and older, or people with certain disabilities.",new,exact,1
+dmlpor,"When reflecting on your typical eating habits, which of the following best describes your approach to portion control?",Able to control portion size,new,close,0.75
+px281501_metadata,PhenX Racial/Ethnic MetaData,PhenX MetaData,new,exact,1
+dvamwendhand,Participant's dominant hand,Dominant hand [PhenX],new,exact,1
+rtei_odir,Eidon-UWF Central-IR,Eidon-UWF Central-IR,new,exact,1
+lbscat_a1c,Hemoglobin - g/dL,Hemoglobin - g/dL,new,exact,1
+paid_scrd,Feeling scared when you think about living with diabetes,Feeling scared when you think about living with diabetes,new,exact,1
+1,Yes,Urinary tract infectious disease,new,exact,1
+pxrd42,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been forced to take drastic steps (such as filing a grievance, filing a lawsuit, quitting your job, moving away, and other actions) to deal with some racist thing that was done towards you? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",new,exact,1
+R043,MoCA Trail Making Part B,Cognitive function test,overlap,related,80
+suvpdosfr,"When you vaped or used e-cigarettes, approximately how many days in a typical week would you use it?","When you vaped or used e-cigarettes, approximately how many days in a typical week would you use it?",new,exact,1
+1,1 - 2 times,1-2 times,new,exact,1
+2,"5001 to 10,000 miles","5001 to 10,000 miles",new,exact,1

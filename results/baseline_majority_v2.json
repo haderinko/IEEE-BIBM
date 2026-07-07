@@ -1,0 +1,17 @@
+{
+  "baseline": "majority_class",
+  "n_rows": 220,
+  "majority_tier": "exact",
+  "tier_counts": {
+    "exact": 94,
+    "related": 49,
+    "broad": 27,
+    "close": 26,
+    "narrow": 24
+  },
+  "accuracy": 0.427,
+  "kappa_unweighted": 0.0,
+  "kappa_quadratic": 0.0,
+  "kappa_cost": 0.0,
+  "mean_cost": 3.05
+}

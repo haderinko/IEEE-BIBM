@@ -1,0 +1,206 @@
+row_id,source_label,target_concept_name,target_omop_concept_id,target_vocabulary,curator_sssom_label,curator_confidence
+R031,eGFR by CKD-EPI 2021 equation,Glomerular filtration rate,3053283,LOINC,broad,90.0
+rtma_odw,M2-3D Wide(H) 12x9-OCT,M2-3D Wide(H) 12x9-OCT,2005200200,AIREADI,exact,90.0
+mhoccur_fall,Have you fallen in the last 12 months? (a fall is defined as an event which results in a person coming to rest inadvertently on the ground or floor or other lower level),Falls in the past year,40757198,LOINC,broad,70.0
+paid_eng,Feeling that diabetes is taking up too much of your mental and physical energy every day,Feeling that diabetes is taking up too much of your mental and physical energy every day,2005200047,AIREADI,exact,90.0
+viaodsph,OD - Autorefractor - Sphere,Right eye Sphere Autorefractor.auto,3000744,LOINC,narrow,90.0
+pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,40192505,PPI,close,80.0
+pxrd49,How often in the past year?,"How often have you been made fun of, picked on, pushed, shoved, hit or threatened with harm because of your race/ethnic group? How often in the past year?",2005200538,AIREADI,narrow,80.0
+mhoccur_yn,"Have you been diagnosed with any conditions not listed above? (any condition, not just eyes)","Have you been diagnosed with any conditions not listed above? (any condition, not just eyes)",2005200470,AIREADI,exact,90.0
+R034,VA Letter Score - Photopic VA - OD,VA Letter Score - Photopic VA - OD,2005200042,AIREADI-Vision,exact,90.0
+mhoccur_mi,Heart attack,Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,80.0
+diet9,How many servings of fruit juice did you drink each day?,How many servings of fruit juice did you drink each day?,2005200063,AIREADI,exact,90.0
+5,Irregular; once or twice a week,Irregular; once or twice a week,2005200318,AIREADI,exact,90.0
+R013,Provide the last study visit/stage completed:,Date of last examination,3655035,SNOMED,,
+3,Withdrawal by Subject,Withdrawal by Subject,2005200281,AIREADI,exact,90.0
+1,Yes,Able to modify behavior and lifestyle to support health improvement,607008,SNOMED,related,70.0
+pxrd51,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been made fun of, picked on, pushed, shoved, hit or threatened with harm because of your race/ethnic group? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",2005200540,AIREADI,narrow,80.0
+1,5000 miles or less,5000 miles or less,2005200271,AIREADI,exact,90.0
+pxahc6,"During the past 12 months, how many times have you gone to an urgent care center or a clinic in a drug store or grocery store about your health?Urgent care centers and clinics in drug stores or grocery stores are places where you do not need to make an appointment ahead of time, and do not usually see the same health care provider at each visit. This is different from a hospital emergency room.","During the past 12 months, how many times have you gone to an urgent care center or a clinic in a drug store or grocery store about your health?Urgent care centers and clinics in drug stores or grocery stores are places where you do not need to make an appointment ahead of time, and do not usually see the same health care provider at each visit. This is different from a hospital emergency room.",2005200095,AIREADI,exact,90.0
+viaosaxi,OS - Autorefractor - Axis,Left eye Axis Autorefractor.auto,3001254,LOINC,narrow,80.0
+12,"12TH Grade, No diploma","12th grade, no diploma",45884461,LOINC,exact,90.0
+R048,Foot examination,Diabetic foot screening with monofilament,4154794,SNOMED,narrow,80.0
+pxrd7,How often in the past year?,"How often have you been treated unfairly by your co-workers, fellow students, and colleagues because of your race/ethnic group? How often in the past year?",2005200496,AIREADI,narrow,80.0
+R050,Diet,Low carbohydrate diet,4222303,SNOMED,narrow,80.0
+R004,Eye exam,Retinal photography,4079775,SNOMED,related,90.0
+mssrf10,Site 10,Monofilament foot sensation test,4047085,SNOMED,related,80.0
+mhoccur_rnl,Kidney problems,Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,70.0
+lbscat_wbc,White Blood Cells (WBC) - x10E3/µL,White Blood Cells (WBC) - x10E3/µL,2005200182,AIREADI,exact,90.0
+0,Less than 1,Less than 1 drink a week,45882032,LOINC,close,80.0
+mhoccur_cns,Other neurological conditions,Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,80.0
+1,3 - 4,3-4,45882611,LOINC,exact,90.0
+R027,Total cholesterol,Cholesterol [Mass/volume] in Serum or Plasma,3027114,LOINC,narrow,80.0
+1,Yes,Minimal cognitive impairment,439795,SNOMED,related,80.0
+rtfncmpdattim,Date & time Fundus - Edion performed,Performed,4160030,SNOMED,broad,80.0
+pxne6,"My neighborhood has several free or low cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...","My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc [PhenX]",40769034,LOINC,exact,90.0
+studyid,Participant Study ID,Participant identifier,44786673,LOINC,close,90.0
+pxne4,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,There are sidewalks on most of the streets in my neighborhood [PhenX],40769032,LOINC,broad,80.0
+R023,Demographic survey date (date survey/form opened),Performed,4160030,SNOMED,related,80.0
+R046,Fasting triglycerides 12h,Triglyceride [Mass/volume] in Serum or Plasma,3022192,LOINC,broad,80.0
+0,Not Covered,Not Covered by Insurance,45881114,LOINC,narrow,80.0
+pxrd11,How often in your entire life?,"How often have you been treated unfairly by people in service jobs (by store clerks, waiters, bartenders, bank tellers and others) because of your race/ethnic group? How often in your entire life?",2005200500,AIREADI,related,70.0
+1,Yes,Arthritis,4291025,SNOMED,related,80.0
+R026,Date BCVA performed,Performed,4160030,SNOMED,related,90.0
+via4,When was the last time you had your eyes examined by an eye care provider (ophthalmologist or optometrist)?,Date of last eye examination,40758529,LOINC,close,90.0
+2,Do not have/know an eye doctor,Do not have/know an eye doctor,2005200246,AIREADI,exact,90.0
+diet1,How many times a week did you eat fast food meals or snacks?,How many times a week did you eat fast food or snacks or pizza in past 7 days [SAMHSA],40771095,LOINC,narrow,80.0
+R018,CES-D-10 Survey Started Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,broad,90.0
+pxsficmpdat,PhenX Food Insecurity survey date,Performed,4160030,SNOMED,related,70.0
+2,Sometimes true,Sometimes true,45877955,LOINC,exact,90.0
+rtma_odm1,M2-Mac 6x6-360x360-(rep3)-OCTA,M2-Mac 6x6-360x360-(rep3)-OCTA,2005200202,AIREADI,exact,90.0
+pxrd46,How often in the past year?,How often have you gotten into an argument or a fight about something racist that was done to you or done to another member or your race/ethnic group? How often in the past year?,2005200535,AIREADI,related,80.0
+pxne11,"How many motor vehicles in working order (e.g., cars, trucks, motorcycles) are there at your household?","How many motor vehicles in working order (e.g., cars, trucks, motorcycles) are there at your household?",2005200116,AIREADI,exact,90.0
+2,In Person (Baseline),In Person (Baseline),2005200288,AIREADI,exact,90.0
+pxrd40,How often in the past year?,"How often have you been forced to take drastic steps (such as filing a grievance, filing a lawsuit, quitting your job, moving away, and other actions) to deal with some racist thing that was done towards you? How often in the past year?",2005200529,AIREADI,related,80.0
+5,Rarely eat whole grain,Rarely eat whole grain,2005200323,AIREADI,exact,90.0
+R019,Fingerstick glucose at clinic visit,Blood glucose measurement,4144235,SNOMED,broad,80.0
+2,2ND Grade,2nd grade,45876392,LOINC,exact,90.0
+R021,Serum creatinine,Creatinine [Mass/volume] in Serum or Plasma,3016723,LOINC,narrow,80.0
+pxahc9,"During the past 12 months, have you DELAYED getting medical care because of the cost?","During the past 12 months, have you DELAYED getting medical care because of the cost?",2005200098,AIREADI,exact,90.0
+1,Yes,Stroke,2005200628,AIREADI,related,80.0
+dmgstartts,Demographics Survey Started Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,broad,80.0
+lbscat_rbc,Red Blood Cells (RBC) - x10E6/µL,Red Blood Cells (RBC) - x10E6/µL,2005200183,AIREADI,exact,90.0
+pxrd37,How often in the past year?,How often have you been really angry about something racist that was done to you? How often in the past year?,2005200526,AIREADI,related,80.0
+R032,"Walking 30+ min/day, 5+ days/week",Physical exercise,4145896,SNOMED,broad,90.0
+1,EVA,EVA,2005200058,AIREADI,exact,90.0
+dricmpdat,Date driving record assessment conducted,Date,4260905,SNOMED,related,70.0
+22,22 to 28,22 to 28,2005200196,AIREADI,exact,90.0
+777,Decline to answer,Prefer not to say,36311156,LOINC,close,80.0
+1,Yes,Chronic lung disease,4186898,SNOMED,related,80.0
+0,"I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)","I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)",1621285,LOINC,exact,90.0
+1,Yes,Glaucoma,437541,SNOMED,related,80.0
+pxsdohcmpts,PhenX SDOH Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,2005200559,AIREADI,broad,80.0
+555,Don't know / unsure,Don't know,45876636,LOINC,close,90.0
+rtsm_odn,Eidon-UWF Nasal-CFP,Eidon-UWF Nasal-CFP,2005200294,AIREADI,exact,90.0
+diet5,"How many times a week did you eat beans (like pinto or black beans), chicken, or fish?","How many times a week did you eat beans (like pinto or black beans), chicken, or fish?",2005200059,AIREADI,exact,90.0
+0,There is NO place,There is NO place,2005200256,AIREADI,exact,90.0
+pxrd45,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been called a racist name? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",2005200534,AIREADI,narrow,80.0
+pxrd28,How often in the past year?,"How often have you been accused or suspected of doing something wrong (such as stealing, cheating, not doing your share of the work, or breaking the law) because of your race/ethnic group? How often in the past year?",2005200517,AIREADI,narrow,80.0
+cm_asp,Have you taken aspirin in the past 2 weeks?,Have you taken aspirin in the past 2 weeks?,2005200145,AIREADI,exact,90.0
+1,Very well,Very well,45877707,LOINC,exact,90.0
+R040,Cognitive test,Montreal Cognitive Assessment total score,3019483,LOINC,narrow,80.0
+1,Within the past month (anytime less than 1 month ago),Within 30 days,45882114,LOINC,close,80.0
+R014,Diabetes medications,metformin hydrochloride 500 MG Oral Tablet,1502826,RxNorm,narrow,90.0
+4,Individual had Type 1 Diabetes,Individual had Type 1 Diabetes,2005200287,AIREADI,exact,90.0
+R001,OS: Log Contrast Sensitivity,"OS: Log Contrast Sensitivity - Mesopic, left eye",2005200553,AIREADI-Vision,narrow,80.0
+555,Don't know/Not sure,Don't know,45876636,LOINC,exact,80.0
+R003,Consent Survey Start Timestamp,Survey Started Timestamp,2005200558,AIREADI,broad,80.0
+8,8TH Grade,8th grade,45876759,LOINC,exact,90.0
+pxrd31,How often in the past year?,How often have people misunderstood your intentions and motives because of your race/ethnic group? How often in the past year?,2005200520,AIREADI,related,80.0
+R002,Point-of-care HbA1c (capillary),Hemoglobin A1c measurement,4184637,SNOMED,close,80.0
+98,More than 50 years,More than 50 years,2005200212,AIREADI,exact,90.0
+2,Individual is pregnant,Currently pregnant,45884583,LOINC,close,70.0
+suvptoage,How many total years have you vaped or used e-cigarettes?,How many total years have you vaped or used e-cigarettes?,2005200034,AIREADI,exact,90.0
+reccmpdat,Recruitment survey date (date survey/form opened),Survey reporting period start date,3039611,LOINC,close,80.0
+1,Yes,Retinal vascular occlusion,440392,SNOMED,related,70.0
+6,Totally different,Major change,45877440,LOINC,related,80.0
+5,"More than 20,000 miles","More than 20,000 miles",2005200275,AIREADI,exact,90.0
+preconstartts,Pre-consent Survey Started Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,broad,80.0
+rtso_odp,Spec-PPole Mac-HR-61 lines-OCT,Spec-PPole Mac-HR-61 lines-OCT,2005200298,AIREADI,exact,90.0
+pxrd27,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been treated unfairly by people that you thought were your friends because of your race/ethnic group? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",2005200516,AIREADI,narrow,80.0
+susmkstaage,At what age did you start smoking? (Age started - years old),At which age did you start smoking [PhenX],40770348,LOINC,close,80.0
+rtop_odd,OptoMed-Disc centered-CFP,OptoMed-Disc centered-CFP,2005200289,AIREADI,exact,90.0
+pxrdcmpts,PhenX Racial/Ethnic Discrimination Survey Completed Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,related,80.0
+mhoccur_circ,"Circulation problems (Examples: arteriosclerosis, atherosclerosis, blood clots in lungs or leg veins)",Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,70.0
+35,More than 36 (greater than 7 bottles),More than 36 (greater than 7 bottles),2005200210,AIREADI,exact,90.0
+mhoccur_pdr,Diabetic retinopathy (in one or both eyes),Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,80.0
+R030,OS: Log Contrast Sensitivity,"OS: Log Contrast Sensitivity - Photopic, left eye",2005200156,AIREADI-Vision,narrow,80.0
+lbdattim1,Date & time clinical labs performed,Performed,4160030,SNOMED,related,80.0
+0,Very little,Very little,45877927,LOINC,exact,90.0
+13,High School Graduate,High school graduate,45884464,LOINC,exact,90.0
+2,Occasionally or a moderate amount of time (3-4 days),Occasionally or a moderate amount of time (3-4 days),2005200143,AIREADI,exact,90.0
+cmtrt_a1c,"Do you take pills to control your A1C and blood glucose levels? Examples: Metformin (Glucophage, Glumetza, Fortamet, Riomet), Glucotrol, Amaryl, DiaBeta, Blynase PresTab, Micronase, Actos, Avandia, Precose, Glyset, Prandin, Starlix, Januvia, Onglyza, Tradjenta, Nesina, Invokana, Farxiga, Jardiance, Welchol, and Cyclocet","Do you take pills to control your A1C and blood glucose levels? Examples: Metformin (Glucophage, Glumetza, Fortamet, Riomet), Glucotrol, Amaryl, DiaBeta, Blynase PresTab, Micronase, Actos, Avandia, Precose, Glyset, Prandin, Starlix, Januvia, Onglyza, Tradjenta, Nesina, Invokana, Farxiga, Jardiance, Welchol, and Cyclocet",2005200548,AIREADI,exact,90.0
+rtop_odm,OptoMed-Mac centered-CFP,OptoMed-Mac centered-CFP,2005200290,AIREADI,exact,90.0
+C51773,Married,Married,45876756,LOINC,exact,90.0
+555,Unknown,Unknown,45877986,LOINC,exact,90.0
+pxrdstartts,PhenX Racial/Ethnic Discrimination Survey Started Timestamp (from REDCap),Survey Completed Timestamp,2005200559,AIREADI,related,80.0
+dmlsugar,"When reflecting on your typical eating habits, which of the following options best describes how often you consume simple sugars?","When reflecting on your typical eating habits, which of the following options best describes how often you consume simple sugars?",2005200305,AIREADI,exact,90.0
+4,30 - 39 times,30 - 39 times,2005200265,AIREADI,exact,90.0
+R033,CES-D-10 survey date,Performed,4160030,SNOMED,related,
+via6,When was the last time you had an eye exam in which the pupils were dilated? (This would have made you temporarily sensitive to bright light),When was the last time you had an eye exam in which the pupils were dilated? (This would have made you temporarily sensitive to bright light),2005200070,AIREADI,exact,90.0
+R042,"If yes, at what age were you first diagnosed?",Age at diagnosis,4307859,SNOMED,close,80.0
+susmkncf,Have you smoked at least 100 cigarettes or more in your lifetime?  (100 cigarettes = 5 packs),Smoked at least 100 cigarettes in entire life,40766306,LOINC,close,90.0
+scrstartts,Screening Survey Started Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,narrow,80.0
+rt_dat,Assessment Date,Date,4260905,SNOMED,broad,80.0
+1,Often true,Often true,36309834,LOINC,exact,90.0
+R007,Exercise,Aerobic exercise --moderate intensity,4145896,SNOMED,narrow,90.0
+dmlmd,Which of the following options best describes you with respect to physician care and medications?,Which of the following options best describes you with respect to physician care and medications?,2005200309,AIREADI,exact,90.0
+pxrd14,How often in your entire life?,How often have you been treated unfairly by strangers because of your race/ethnic group? How often in your entire life?,2005200503,AIREADI,related,80.0
+rtei_odfaf,Eidon-UWF Central-FAF,Eidon-UWF Central-FAF,2005200292,AIREADI,exact,70.0
+1,Yes,Smoked at least 100 cigarettes in entire life,40766306,LOINC,related,80.0
+R025,HbA1c test,Hemoglobin A1c/Hemoglobin.total in Blood,3004410,LOINC,close,80.0
+height_vsorres,Height (cm),Body height,3036277,LOINC,close,80.0
+pxnecmpdat,PhenX Neighborhood Enviroment survey date,Performed,4160030,SNOMED,related,70.0
+2,Brother,Brother,45883765,LOINC,exact,90.0
+cage,Age (in years),Age,4265453,SNOMED,close,90.0
+viaospscore,Photopic LogMAR OS Score,Photopic LogMAR OS Score,2005200053,AIREADI,exact,90.0
+R020,BP,Blood pressure,4154790,SNOMED,exact,90.0
+2,There is MORE THAN ONE place,There is MORE THAN ONE place,2005200257,AIREADI,exact,90.0
+sumrjstage,At what age did you start using marijuana? (Age started - years old),Age when first used marijuana,37020592,LOINC,exact,80.0
+dvamwenhand_3,Not Provided,Not Provided,763013,SNOMED,exact,90.0
+R039,Mark questions from Inclusion/Exclusion that were not met.,Not eligible for participation in research study,44811374,SNOMED,related,80.0
+R038,Blood pressure check,Systolic blood pressure --sitting,3004249,LOINC,narrow,90.0
+0,5 or more,5 or more,2005200240,AIREADI,exact,90.0
+dvamwenhand,Physical Activity Monitor was worn on which wrist?,Physical Activity Monitor was worn on which wrist?,2005200206,AIREADI,exact,90.0
+paidcmpdat,PAID-5 DM survey date,Performed,4160030,SNOMED,related,70.0
+rtsm_odm,Eidon-Create Mosaic Image-CFP,Eidon- Create Mosaic Image-CFP,2005200296,AIREADI,exact,90.0
+mhoccur_oa,Osteoporosis,Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,70.0
+10,10TH Grade,10th grade,45876393,LOINC,exact,90.0
+msslffl,Left Foot - Felt:,Left Foot - Felt:,2005200161,AIREADI,exact,90.0
+dmlgrain,"In a typical day, how often do you consume whole grains? (Examples: include whole wheat, brown bread, or brown rice).","In a typical day, how often do you consume whole grains? (Examples: include whole wheat, brown bread, or brown rice).",2005200306,AIREADI,exact,90.0
+pxsdohcmpdat,PhenX SDOH survey date,Performed,4160030,SNOMED,related,80.0
+ces2,I had trouble keeping my mind on what I was doing,Trouble focusing,1761791,LOINC,close,90.0
+pxfi2,"(I/we) couldn't afford to eat balanced meals."" Was that often, sometimes, or never true for (you/your household) in the last 12 months?","In the last 12 months, we couldn't afford to eat balanced meals [U.S. FSS]",36660487,LOINC,related,70.0
+pxrdcmpdat,PhenX Racial/Ethnic Discrimination survey date,Performed,4160030,SNOMED,related,90.0
+1,Covered,Covered,2005200252,AIREADI,exact,90.0
+viaodmsf,Snellen fraction - Mesopic VA - OD,Snellen fraction - Mesopic VA - OD,2005200054,AIREADI,exact,90.0
+R012,CES-D-10 Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,2005200559,AIREADI,broad,80.0
+pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,40192423,PPI,narrow,80.0
+paid_wr,Worrying about the future and the possibility of serious complications,Worrying about the future and the possibility of serious complications,2005200046,AIREADI,exact,90.0
+5,No reason to go (no problem),No reason to go (no problem),2005200249,AIREADI,exact,90.0
+R024,Glucose test,Glucose [Mass/volume] in Serum or Plasma --8 hours fasting,3037110,LOINC,narrow,80.0
+2,11 - 19 times,11 - 19 times,2005200263,AIREADI,exact,90.0
+mhcat_adot,"If yes, please choose between:",Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,70.0
+1,Yes,Prediabetes,37018196,SNOMED,related,70.0
+0,Rarely or none. Not taking 1 or more recommended medicines,Rarely or none. Not taking 1 or more recommended medicines,2005200334,AIREADI,exact,90.0
+C51774,Single,Single,45879879,LOINC,exact,90.0
+px270201_metadata,PhenX English Proficiency MetaData,PhenX MetaData,2005200102,AIREADI,broad,80.0
+R044,Yes,Age related macular degeneration,374028,SNOMED,related,90.0
+R017,What was the primary reason the subject discontinued?,Reason for,4260904,SNOMED,related,80.0
+viacmpts,Ophthalmic Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,2005200559,AIREADI,broad,80.0
+cm_slp,Have you taken sleeping pills in the past 2 weeks?,Have you taken sleeping pills in the past 2 weeks?,2005200150,AIREADI,exact,90.0
+R011,Ethnicity,Ancestry,4189270,SNOMED,close,80.0
+pxfistartts,PhenX Food Insecurity Survey Started Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,broad,80.0
+R016,Date paper consent completed,Performed,4160030,SNOMED,related,80.0
+14,GED or Equivalent,GED or equivalent,45881673,LOINC,exact,90.0
+sumrjtrt,In what form do you usually use marijuana?  (check all that apply),In what form do you usually use marijuana?  (check all that apply),2005200037,AIREADI,exact,90.0
+weight_vsorres,Weight (kilograms),Body weight,3025315,LOINC,close,80.0
+pxsficmpts,PhenX Food Insecurity Survey Completed Timestamp (from REDCap),Survey Completed Timestamp,2005200559,AIREADI,broad,80.0
+6,Currently enrolled in a conflicting study,Currently enrolled in a conflicting study,2005200283,AIREADI,exact,90.0
+viaodmlog,LLVA Letter Score - Mesopic VA - OD,LLVA Letter Score - Mesopic VA - OD,2005200056,AIREADI,exact,90.0
+1,Pre-Visit,Before appointment,35626257,SNOMED,close,80.0
+rtoctcmpdattim,Date & time OCT - Triton OCT performed,Performed,4160030,SNOMED,broad,80.0
+dvamwendat,Date device received back from participant,Date,4260905,SNOMED,related,80.0
+paid_dpr,Feeling depressed when you think about living with diabetes,Feeling depressed when you think about living with diabetes,2005200045,AIREADI,exact,90.0
+mhstartts,Health Survey Started Timestamp (from REDCap),Survey Started Timestamp,2005200558,AIREADI,broad,80.0
+19,"Master's Degree (Example: MA, MS, MEng, MEd, MBA)","Master's degree (e.g., MA, MS, MEng, MEd, MSW, MBA)",45878298,LOINC,exact,90.0
+via2,"How much difficulty, if any, do you have reading print in newspapers, magazines, recipes, menus, or numbers on the telephone? Would you say:","How much difficulty, if any, do you have reading print in newspapers, magazines, recipes, menus, or numbers on the telephone? Would you say:",2005200068,AIREADI,exact,90.0
+R029,Consent survey/form date (date survey/form opened),Performed,4160030,SNOMED,related,90.0
+mhoccur_amd,Age-related macular degeneration (AMD) (in one or both eyes),Has a doctor or other healthcare professional ever told you that you have/had...,2005200014,AIREADI,related,80.0
+paid_cml,Coping with complications of diabetes,Coping with complications of diabetes,2005200048,AIREADI,exact,90.0
+5,40 - 49 times,40 - 49 times,2005200266,AIREADI,exact,90.0
+pxdhc2,You are treated with less respect than other people.,You have been treated with less respect than other people [PhenX],40770201,LOINC,narrow,80.0
+10,3 or more visits a year to the same doctor. Regular with medicines.,3 or more visits a year to the same doctor. Regular with medicines.,2005200332,AIREADI,exact,90.0
+pxhic3,"Medicare, for people 65 and older, or people with certain disabilities.","Medicare, for people 65 and older, or people with certain disabilities.",2005200083,AIREADI,exact,90.0
+dmlpor,"When reflecting on your typical eating habits, which of the following best describes your approach to portion control?",Able to control portion size,764035,SNOMED,related,80.0
+px281501_metadata,PhenX Racial/Ethnic MetaData,PhenX MetaData,2005200102,AIREADI,broad,90.0
+dvamwendhand,Participant's dominant hand,Dominant hand [PhenX],40768726,LOINC,close,70.0
+rtei_odir,Eidon-UWF Central-IR,Eidon-UWF Central-IR,2005200291,AIREADI,exact,90.0
+lbscat_a1c,Hemoglobin - g/dL,Hemoglobin - g/dL,2005200184,AIREADI,exact,90.0
+paid_scrd,Feeling scared when you think about living with diabetes,Feeling scared when you think about living with diabetes,2005200044,AIREADI,exact,90.0
+1,Yes,Urinary tract infectious disease,81902,SNOMED,related,80.0
+pxrd42,"On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful","How often have you been forced to take drastic steps (such as filing a grievance, filing a lawsuit, quitting your job, moving away, and other actions) to deal with some racist thing that was done towards you? On a scale of 1-6, how stressful was this for you? 1 = Not at all stressful; 6 = Extremely stressful",2005200531,AIREADI,narrow,90.0
+R043,MoCA Trail Making Part B,Cognitive function test,4329024,SNOMED,related,70.0
+suvpdosfr,"When you vaped or used e-cigarettes, approximately how many days in a typical week would you use it?","When you vaped or used e-cigarettes, approximately how many days in a typical week would you use it?",2005200035,AIREADI,exact,90.0
+1,1 - 2 times,1-2 times,46237352,LOINC,exact,90.0
+2,"5001 to 10,000 miles","5001 to 10,000 miles",2005200272,AIREADI,exact,90.0
