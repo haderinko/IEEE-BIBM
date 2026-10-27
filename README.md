@@ -264,6 +264,3 @@ redistributing. Code released under the MIT License (see `LICENSE`).
 
 ---
 
-## Contact
-
-TODO — add contact / issue-tracker guidance after acceptance.
